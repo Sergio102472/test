@@ -1,0 +1,206 @@
+
+
+
+/* order-summary ---------------------------------- */
+.order-summary {
+  max-width: 420px;
+  padding: 24px 32px 32px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 5%);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* column-gap: 25px; */
+  margin-left: 30px;
+}
+.order-summary .wrap {
+  margin: 0 0 20px 0;
+}
+.order-summary section {
+  border: 1px solid #cbcbcb;
+  border-radius: 15px;
+  padding: 0 20px;
+  margin: 0 0 17px;
+  /* width: calc(50% - 56px); */
+}
+ul.product-list li {
+  display: flex;
+  border-bottom: solid 1px #cbcbcb;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  align-items: flex-start;
+  gap: 15px;
+
+
+}
+.product-item .product-image {
+  width: 63px;
+}
+.product-item .product-info {
+}
+.product-item .product-info .product-title {
+  color: #0b1729;
+  font-weight: bold;
+}
+.product-item .product-info .product-tooltip {
+}
+.product-item .product-info .product-description {
+}
+.product-item .product-price {
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.taxes-fees {
+}
+.taxes-fees .user-zipcode {
+  color: #0b1729;
+  font-weight: 500;
+}
+.taxes-fees .tax-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.taxes-fees .tax-item .tax-name {
+}
+.taxes-fees .tax-item .tax-price {
+  font-weight: bold;
+}
+
+.total-item {
+  display: flex;
+  font-weight: bold;
+  color: #0b1729;
+  flex-wrap: wrap;
+  padding: 16px 20px 20px;
+  border-radius: 8px;
+  background-color: #dee4f1;
+}
+.total-item .total-name {
+}
+.total-item .total-price {
+  margin-left: auto;
+}
+.total-item .total-text {
+  width: 100%;
+  font-size: 16px;
+}
+
+.order-summary .money-back {
+  color: #0b1729;
+  font-weight: bold;
+  width: 100%;
+}
+.money-back::before {
+  content: "0";
+}
+
+
+/* end order-summary ---------------------------------- */
+
+
+/* step forms ----------------------------------------- */
+
+
+.forms-step {
+    font-size: 15px;
+    width: 100%;
+}
+.forms-step .section-title {
+    padding: 24px 0px 8px;
+    border-bottom: solid 1px #cbcbcb;
+    margin: 29px 0;
+}
+.forms-step .section-title::after {}
+
+.forms-step .form_radio {
+    display: flex;
+    /* min-height: 35px; */
+    margin: 6px 0px;
+    /* padding: 16px 20px; */
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px 2px rgba(11, 23, 41, 0.03);
+}
+.forms-step input[type=radio]{}
+.forms-step .form_radio label {
+  color: #0b1729;
+  font-weight: 600;
+  /* margin: 0 0 15px; */
+  display: block;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 16px 24px 16px 40px;
+  min-height: 35px;
+}
+.forms-step label  div {
+  display: flex;
+  gap: 10px;
+  font-weight: bold;
+  color: #0b1729;
+  flex-wrap: wrap;
+  padding: 16px 20px 20px;
+  border-radius: 8px;
+  background-color: #dee4f1;
+  -webkit-border-radius: 8px;
+  margin: 15px 0 0 0px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  flex-direction: column;
+  width: 100%;
+}
+h4.your-plan-include{
+    padding: 30px 0 0;
+}
+.plan-include {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    padding-left: 0;
+}
+.forms-step .plan-include li {
+    list-style-position: inside;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    padding: 7px 0;
+}
+.forms-step .plan-include li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  color: #02ca66;
+  padding: 0 10px 0 0;
+}
+.forms-step label .phonenumber-new {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forms-step label .billed-annually {
+    margin-left: auto;
+}
+
+article.phonenumber-selection {
+    /* display: flex; */
+    gap: 15px;
+}
+
+
+
+/* end step forms ----------------------------------------- */
+
+
+
+
