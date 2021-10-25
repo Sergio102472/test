@@ -4,22 +4,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Font Awesome -->
-    <!-- Google Fonts -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" /> -->
-    <!-- MDB -->
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />  -->
-    <!-- <link href="https://necolas.github.io/normalize.css/latest/normalize.css" rel="stylesheet" /> -->
-    <!-- <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
-      type="text/javascript"
-    ></script> -->
-    <!-- Font Awesome -->
-
 
 
     <link
-      href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet"
+      href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css"
+      rel="stylesheet"
     />
     <!-- css -->
     <link href="global.css" rel="stylesheet" />
@@ -35,210 +24,223 @@
       </div>
     </header>
     <main>
+      <!-- step forms -->
+      <section class="forms-step">
+        <h2 class="section-title">Number selection</h2>
+        <article class="phonenumber-selection">
+          <div class="form_radio">
+            <input
+              id="phonenumber-new"
+              type="radio"
+              name="radio"
+              value="1"
+              checked
+            />
+            <label for="phonenumber-new"
+              >I want a new number
+              <div class="phonenumber-new">
+                <h1>(544) 455-7657</h1>
+                <a href="####">Pick a different phone number</a>
+              </div>
+            </label>
+          </div>
 
+          <div class="form_radio">
+            <input id="phonenumber-old" type="radio" name="radio" value="1" />
+            <label for="phonenumber-old"
+              >I want to keep my existing number
+              <div class="phonenumber-old">
+                <h4>Share your porting information</h4>
+                <p>
+                  To keep your existing number, you will need to share some
+                  information about your current provider.
+                </p>
+                <a href="####">Pick a different phone number</a>
+              </div>
+            </label>
+          </div>
+        </article>
 
+        <a href="#2-step" class="btn btn-next">Continue</a>
 
+        <h2 class="section-title">Choose a plan</h2>
 
- <!-- step forms -->
-<section class="forms-step">
+        <h4 class="">Choose between monthly or annually</h4>
+        <p>
+          Billing for service starts 15 days after you purchase. There is a
+          30-day money back guarantee.
+        </p>
 
- <h2 class="section-title">Number selection</h2>
-<article class="phonenumber-selection" >
+        <div class="form_radio">
+          <input
+            id="plan-monthly"
+            type="radio"
+            name="radio"
+            value="1"
+            checked
+          />
+          <label for="plan-monthly">Monthly $39/m</label>
+        </div>
 
+        <div class="form_radio">
+          <input id="plan-annual" type="radio" name="radio" value="1" />
+          <label for="plan-annual"
+            >Annual $35.75/m
+            <span class="many-save">Save $39</span>
+            <span class="billed-annually">*Billed annually at $429</span>
+          </label>
+        </div>
 
-	<div class="form_radio">
-		<input id="phonenumber-new" type="radio" name="radio" value="1" checked>
-		<label for="phonenumber-new">I want a new number
-      <div class="phonenumber-new">
-        <h1>(544) 455-7657</h1> 
-        <a href="####">Pick a different phone number</a>
-      </div>
-    </label>
-	</div>
-  
-  <div class="form_radio">
-		<input id="phonenumber-old" type="radio" name="radio" value="1">
-		<label for="phonenumber-old">I want to keep my existing number
-    <div class="phonenumber-old">
-      <h4>Share your porting information</h4>
-      <p>
-        To keep your existing number, you will need to share some information about your current provider.
-      </p> 
-      <a href="####">Pick a different phone number</a>
-    </div>
-  </label>
-	</div>
+        <h4 class="your-plan-include">Your plan include</h4>
 
-</article>
+        <ul class="plan-include">
+          <li>Voicemail and caller ID</li>
+          <li>Unlimited nationwide calling</li>
+          <li>No internet required</li>
+          <li>Works during power outages</li>
+          <li>US-based customer support</li>
+          <li>Connects with any landline phone</li>
+          <li>No contracts - cancel any time</li>
+          <li>30-day money back guarantee</li>
+        </ul>
 
-<a href="#2-step"  class="btn btn-next">Continue</a>
+        <a href="#3-step" class="btn btn-next">Continue</a>
 
-  <h2 class="section-title">Choose a plan</h2>
+        <h2 class="section-title">Hardware</h2>
 
-  <h4 class="">Choose between monthly or annually</h4>
-  <p>
-    Billing for service starts 15 days after you purchase. There is a 30-day money back guarantee.
-  </p>
+        <h4 class="">One-time payment of $99 for the landline base</h4>
 
-  <div class="form_radio">
-		<input id="plan-monthly" type="radio" name="radio" value="1" checked>
-		<label for="plan-monthly">Monthly $39/m</label>
-	</div>
+        <p>
+          Our service is powered by our Landline Base. This device connects your
+          landline phone to cell towers in your area, rather than copper wire
+          via phone jacks in your walls. The device has a backup battery, which
+          will keep you connected during a power outage for up to 12 hours.
+          Setup takes about 30 seconds - just plug the base into an outlet, and
+          plug your phone into the jack on the base. You own the device once
+          it’s purchased, and you can return it within 30 days for a full
+          refund.
+          <span>Show less</span>
+        </p>
 
-<div class="form_radio">
-		<input id="plan-annual" type="radio" name="radio" value="1">
-		<label for="plan-annual">Annual $35.75/m 
-      <span class="many-save">Save $39</span>
-      <span class="billed-annually">*Billed annually at $429</span>
-    </label>
-	</div>
+        <input type="text" class="form-input" placeholder="placeholder" />
+        <input type="text" class="form-input" placeholder="placeholder" />
+        <input type="text" class="form-input" placeholder="placeholder" />
+      </section>
 
-
-
-  <h4 class="your-plan-include">Your plan include</h4>
-
-<ul class="plan-include">
-  <li>Voicemail and caller ID</li>
-  <li>Unlimited nationwide calling</li>
-  <li>No internet required</li>
-  <li>Works during power outages</li>
-  <li>US-based customer support</li>
-  <li>Connects with any landline phone</li>
-  <li>No contracts - cancel any time</li>
-  <li>30-day money back guarantee</li>
-</ul>
-
-<a href="#3-step"  class="btn btn-next">Continue</a>
-
-
-
-
-<h2 class="section-title">Hardware</h2>
-
-<h4 class="">One-time payment of $99 for the landline base</h4>
-
-<p>
-  Our service is powered by our Landline Base. This device connects your landline phone to cell towers in your area, rather than copper wire via phone jacks in your walls.
-  The device has a backup battery, which will keep you connected during a power outage for up to 12 hours.
-  Setup takes about 30 seconds - just plug the base into an outlet, and plug your phone into the jack on the base.
-  You own the device once it’s purchased, and you can return it within 30 days for a full refund. 
-  <span>Show less</span> 
-</p>
-
-
-
-
- <input type="text" class="form-input" placeholder="placeholder">
- <input type="text" class="form-input" placeholder="placeholder">
- <input type="text" class="form-input" placeholder="placeholder">
-</section>
-
- <!--  end step forms -->
+      <!--  end step forms -->
 
       <!-- order-summary -->
 
       <aside class="order-summary">
         <h2 class="section-title">Order summary</h2>
         <section class="Due today">
-        <h3 class="section-sub-title">Due today</h3>
+          <h3 class="section-sub-title">Due today</h3>
 
-        <ul class="product-list wrap">
-          <li class="product-item">
-            <img
-              class="product-image"
-              src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/60d0b05962306f63feda5374_img-device.jpg"
-              alt=""
-            />
-            <div class="product-info">
-              <span class="product-title">Title</span>
-              <span class="product-tooltip">?</span>
-              <p class="product-description">Description</p>
+          <ul class="product-list wrap">
+            <li class="product-item">
+              <img
+                class="product-image"
+                src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/60d0b05962306f63feda5374_img-device.jpg"
+                alt=""
+              />
+              <div class="product-info">
+                <span class="product-title">Title</span>
+                <span class="product-tooltip">?</span>
+                <p class="product-description">Description</p>
+              </div>
+              <div class="product-price">$0</div>
+            </li>
+            <li class="product-item">
+              <img
+                class="product-image"
+                src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/60d0b05962306f63feda5374_img-device.jpg"
+                alt=""
+              />
+              <div class="product-info">
+                <span class="product-title">Title</span>
+                <span class="product-tooltip">?</span>
+                <p class="product-description">Description</p>
+              </div>
+              <div class="product-price">$0</div>
+            </li>
+          </ul>
+
+          <div class="taxes-fees wrap">
+            <div class="user-zipcode">Based on your Zipcode: 00000</div>
+            <div class="tax-item">
+              <span class="tax-name">Service Tax</span>
+              <span class="tax-price">$0</span>
             </div>
-            <div class="product-price">$0</div>
-          </li>
-          <li class="product-item">
-            <img
-              class="product-image"
-              src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/60d0b05962306f63feda5374_img-device.jpg"
-              alt=""
-            />
-            <div class="product-info">
-              <span class="product-title">Title</span>
-              <span class="product-tooltip">?</span>
-              <p class="product-description">Description</p>
+            <div class="tax-item">
+              <span class="tax-name">Service Tax</span>
+              <span class="tax-price">$0</span>
             </div>
-            <div class="product-price">$0</div>
-          </li>
-        </ul>
-
-        <div class="taxes-fees wrap">
-          <div class="user-zipcode">Based on your Zipcode: 00000</div>
-          <div class="tax-item">
-            <span class="tax-name">Service Tax</span>
-            <span class="tax-price">$0</span>
           </div>
-          <div class="tax-item">
-            <span class="tax-name">Service Tax</span>
-            <span class="tax-price">$0</span>
-          </div>
-        </div>
 
-        <h4 class="total-item wrap">
-          <span class="total-name"> Total due today </span>
-          <span class="total-price">$0</span>
-          <p class="total-text">
-            You can start your service as soon as you receive the landline base.
-          </p>
-        </h4>
+          <h4 class="total-item wrap">
+            <span class="total-name"> Total due today </span>
+            <span class="total-price">$0</span>
+            <p class="total-text">
+              You can start your service as soon as you receive the landline
+              base.
+            </p>
+          </h4>
         </section>
 
         <!-- ================================== -->
-<section class="15-days">
-        <h3 class="section-sub-title">In 15 days</h3>
+        <section class="15-days">
+          <h3 class="section-sub-title">In 15 days</h3>
 
-        <ul class="product-list wrap">
+          <ul class="product-list wrap">
+            <li class="product-item">
+              <img
+                class="product-image"
+                src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/60d0a444c31f1bc77f528588_img-placeholder.svg"
+                alt=""
+              />
+              <div class="product-info">
+                <span class="product-title">Title</span>
+                <span class="product-tooltip">?</span>
+                <p class="product-description">Description</p>
+              </div>
+              <div class="product-price">$0</div>
+            </li>
 
-          <li class="product-item">
-            <img class="product-image"  src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/60d0a444c31f1bc77f528588_img-placeholder.svg" alt="" />
-            <div class="product-info">
-              <span class="product-title">Title</span>
-              <span class="product-tooltip">?</span>
-              <p class="product-description">Description</p>
+            <li class="product-item">
+              <img
+                class="product-image"
+                src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/60d0a444c31f1bc77f528588_img-placeholder.svg"
+                alt=""
+              />
+              <div class="product-info">
+                <span class="product-title">Title</span>
+                <span class="product-tooltip">?</span>
+                <p class="product-description">Description</p>
+              </div>
+              <div class="product-price">$0</div>
+            </li>
+          </ul>
+
+          <div class="taxes-fees wrap">
+            <div class="user-zipcode">Based on your Zipcode: 00000</div>
+            <div class="tax-item">
+              <span class="tax-name">Service Tax</span>
+              <span class="tax-price">$0</span>
             </div>
-            <div class="product-price">$0</div>
-          </li>
-
-          <li class="product-item">
-            <img class="product-image" src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/60d0a444c31f1bc77f528588_img-placeholder.svg" alt="" />
-            <div class="product-info">
-              <span class="product-title">Title</span>
-              <span class="product-tooltip">?</span>
-              <p class="product-description">Description</p>
+            <div class="tax-item">
+              <span class="tax-name">Service Tax</span>
+              <span class="tax-price">$0</span>
             </div>
-            <div class="product-price">$0</div>
-          </li>
-        </ul>
-
-        <div class="taxes-fees wrap">
-          <div class="user-zipcode">Based on your Zipcode: 00000</div>
-          <div class="tax-item">
-            <span class="tax-name">Service Tax</span>
-            <span class="tax-price">$0</span>
           </div>
-          <div class="tax-item">
-            <span class="tax-name">Service Tax</span>
-            <span class="tax-price">$0</span>
-          </div>
-        </div>
 
-        <h4 class="total-item wrap">
-          <span class="total-name">Service total</span>
-          <span class="total-price">$0</span>
-          <p class="total-text">
-            Billing for the service will start 15 days after purchasing
-          </p>
-        </h4>
-      </section>
+          <h4 class="total-item wrap">
+            <span class="total-name">Service total</span>
+            <span class="total-price">$0</span>
+            <p class="total-text">
+              Billing for the service will start 15 days after purchasing
+            </p>
+          </h4>
+        </section>
         <!-- --------------------------------------------- -->
 
         <div class="money-back">30-Day Money-back guarantee</div>
@@ -249,12 +251,7 @@
         />
       </aside>
 
-
-  <!-- end order-summary -->
-
-
-
-
+      <!-- end order-summary -->
     </main>
   </body>
 </html>
