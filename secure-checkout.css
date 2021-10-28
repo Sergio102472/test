@@ -211,6 +211,27 @@ ul.product-list li {
   flex-wrap: wrap;
   flex-direction: column;
 }
+.forms-step input + label + div.shipping-address {
+  padding: 0;
+  /* height: 0; */
+  display: flex;
+  /* gap: 10px; */
+  font-weight: bold;
+  color: #0b1729;
+  /* padding: 16px 20px 20px; */
+  border-radius: 8px;
+  background-color: transparent;
+  -webkit-border-radius: 8px;
+  /* margin: 0 15px 15px; */
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  /* width: 100%; */
+  /* border: 1px; */
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 h4.your-plan-include {
   padding: 30px 0 0;
 }
