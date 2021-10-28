@@ -15,7 +15,7 @@
   position: sticky;
   top: 1%;
   max-width: 350px;
-  padding: 24px 20px 32px;
+  padding: 20px 20px 32px;
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 0 4px 4px 0 rgb(0 0 0 / 5%);
@@ -54,7 +54,7 @@
 
 
 .order-summary .wrap {
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
 }
 .order-summary section {
   border: 1px solid #cbcbcb;
@@ -66,8 +66,8 @@
 ul.product-list li {
   display: flex;
   border-bottom: solid 1px #cbcbcb;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   align-items: flex-start;
   gap: 15px;
 }
@@ -145,7 +145,7 @@ ul.product-list li {
 .forms-step .section-title {
   padding: 24px 0px 15px;
   border-bottom: solid 1px #cbcbcb;
-  margin: 6px 0;
+  margin: 0px 0 15px 0;
   font-size: 28px;
   line-height: 32px;
   font-weight: 600;
@@ -157,7 +157,7 @@ ul.product-list li {
 }
 .forms-step .acordion input:checked + .section-title + div {
   background-color: transparent;
-  padding: 0px;
+  padding: 2px;
   /* margin: 0 15px 15px; */
 }
 .forms-step .section-title::after {
@@ -167,7 +167,7 @@ ul.product-list li {
   /* display: flex; */
   /* min-height: 35px; */
   /* margin: 6px 0px; */
-  /* border: 1px; */
+   border: 1px; 
   /* padding: 16px 20px; */
   background-color: #fff;
   border-radius: 6px;
@@ -175,6 +175,13 @@ ul.product-list li {
   /* flex-direction: column; */
   width: 100%;
 }
+.forms-step .form-radio:hover {
+background-color: #fff;
+box-shadow: 0 2px 7px 0 rgb(0 25 249 / 16%), 0 0 0 2px #0019f9;
+}
+
+
+
 .forms-step input[type="radio"] {
 }
 .forms-step .form-radio label {
