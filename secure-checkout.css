@@ -6,16 +6,15 @@
 
 
 .order-summary {
-  overflow: auto;
+  /* overflow: auto; */
   /* position: sticky; */
-  position: -webkit-sticky;
   /* position: sticky; */
   /* top: 0; */
   /* top: 0; */
-  position: sticky;
-  top: 1%;
-  max-width: 350px;
-  padding: 20px 20px 32px;
+  /* position: sticky; */
+  /* top: 1%; */
+  width: 363px;
+  padding: 23px 32px 32px;
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 0 4px 4px 0 rgb(0 0 0 / 5%);
@@ -26,8 +25,8 @@
   /* display: flex; */
   /* flex-wrap: wrap; */
   /* column-gap: 25px; */
-  margin-left: 8%;
-  max-height: 90vh;
+  margin-left: 57px;
+  /* max-height: 90vh; */
 }
 .forms-step {
   counter-reset: my-awesome-counter;
@@ -49,31 +48,32 @@
   margin-right: 17px;
   width: 32px;
   height: 32px;
-  background-color: #d9d9d9;
+  background-color: #e8e7ec;
   font-size: 20px;
 }
 
 
 .order-summary .wrap {
-  margin: 0 0 10px 0;
+  /* margin: 7px 0 16px 0; */
 }
 .order-summary section {
-  border: 1px solid #cbcbcb;
-  border-radius: 15px;
-  padding: 0 20px;
-  margin: 0 0 17px;
+  /* border: 1px solid #cbcbcb; */
+  /* border-radius: 15px; */
+  /* padding: 0 20px; */
+  /* margin: 0 0 17px; */
   /* width: calc(50% - 56px); */
 }
 ul.product-list li {
   display: flex;
   border-bottom: solid 1px #cbcbcb;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   align-items: flex-start;
-  gap: 15px;
+  gap: 0px;
 }
 .product-item .product-image {
-  width: 63px;
+  width: 48px;
+  margin-right: 13px;
 }
 .product-item .product-info {
 }
@@ -90,21 +90,44 @@ ul.product-list li {
   margin-left: auto;
 }
 
+
+
+.tax-service.acordion {
+  
+margin: 0 0 -8px;
+}
+.tax-service.acordion > input + label {
+    padding: 2px 0px 3px;
+    display: block;
+    font-size: 16px;
+}
+.tax-service.acordion > input + label .tax-price {
+    float: right;
+    color: #686d79;
+    font-weight: 600;
+}
+
+
+.tax-service.acordion > input + label + div {
+  padding: 2px 0px 3px;
+}
+
 .taxes-fees {
 }
 .taxes-fees .user-zipcode {
   color: #0b1729;
   font-weight: 500;
+  font-size: 15px;
 }
 .taxes-fees .tax-item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.taxes-fees .tax-item .tax-name {
-}
+.taxes-fees .tax-item .tax-name {font-size: 15px;/* line-height: 35px; */padding: 7px 0 0;}
 .taxes-fees .tax-item .tax-price {
   font-weight: bold;
+  line-height: 33px;
 }
 
 .total-item {
@@ -112,9 +135,11 @@ ul.product-list li {
   font-weight: bold;
   color: #0b1729;
   flex-wrap: wrap;
-  padding: 16px 20px 20px;
+  padding: 18px 20px 20px;
   border-radius: 8px;
   background-color: #dee4f1;
+  margin-top: 26px;
+  margin-bottom: 15px;
 }
 .total-item .total-name {
 }
@@ -124,12 +149,15 @@ ul.product-list li {
 .total-item .total-text {
   width: 100%;
   font-size: 16px;
+  padding: 12px 0 0;
+  margin: 0;
 }
 
 .order-summary .money-back {
   color: #0b1729;
   font-weight: bold;
   width: 100%;
+  margin: 0 0 16px;
 }
 .money-back::before {
   content: "0";
@@ -376,10 +404,11 @@ form.account-details {
 .billing-address.acordion {}
 
 .billing-address.acordion input:checked + label + div {
-  height: auto;
-  padding: 8px 25px 8px 25px;
-  margin: 0 31px 15px 50px;
-  overflow: hidden;
+  /* height: auto; */
+  padding: 0;
+  margin: 0;
+  /* overflow: hidden; */
+  background-color: transparent;
 }
 
 
