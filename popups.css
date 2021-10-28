@@ -43,6 +43,7 @@
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
 }
+
 .modalbg .dialog {
   table-layout: fixed;
   display: none;

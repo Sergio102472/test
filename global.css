@@ -36,7 +36,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   font-family: Inter, sans-serif;
-  background-color: #e7e7e7;
+  background-color: #f9f9fa;
   /* overflow-x: hidden; */
   margin: 0;
 }
@@ -148,6 +148,7 @@ ul li {
   border-radius: 4px;
   background-color: #02ca66;
   margin: 0 15px;
+  margin-left: auto;
 }
 
 main {
@@ -169,6 +170,24 @@ main {
 
 /*  forms ----------------------------------------- */
 /*  forms global */
+
+.required-element {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #e8e7ec;
+   
+}
+/* .required-element:before {
+  content: "\f071";
+} */
+.required-element:before {
+  content: "\10f071";
+  color: #ff6b00;
+  font-family: "Font Awesome 5 Duotone";
+  font-weight: 900;
+  margin: 0 5px 0 0;
+}
+
 form {
   width: 100%;
 }
@@ -239,7 +258,7 @@ input[type="text"]:focus {
   /* width: 100%; */
   flex-wrap: wrap;
   align-items: center;
-  padding: 16px 24px 16px 40px;
+  padding: 16px 24px 16px 44px;
   /* margin: 0 0 10px 0; */
   /* min-height: 35px;*/
 }
@@ -254,6 +273,7 @@ input[type="text"]:focus {
   width: 14px;
   height: 14px;
 }
+
 
 /* Checked */
 .form-radio input[type="radio"]:checked + label:before {
@@ -295,8 +315,8 @@ input[type="text"]:focus {
 
 .forms-step .acordion input:checked + label + div {
   height: auto;
-  padding: 15px;
-  margin: 0 15px 15px;
+  padding: 8px 25px 8px 25px;
+  margin: 0 31px 15px 50px;
   overflow: hidden;
 }
 
