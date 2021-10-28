@@ -101,7 +101,12 @@ ul li {
 .section-sub-title {
   padding-top: 10px;
 }
-
+img {
+  display: inline-block;
+  /* width: 100%; */
+  max-width: 100%;
+  height: auto;
+}
 .btn {
   color: #0019f9;
   display: inline-block;

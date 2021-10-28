@@ -40,11 +40,11 @@
             <label for="phonenumber-new">Your new number </label>
             <div class="phonenumber-new">
               <h1>(544) 455-7657</h1>
-              <a href="#openModal">Pick a different phone number</a>
+              <a href="#openModal-new-test">Pick a different phone number</a>
             </div>
           </div>
           <div class="form-radio">
-            <input id="phonenumber-old" name="phonenumber" type="radio" value="1" >
+            <input id="phonenumber-old" name="phonenumber" type="radio" value="1">
             <label for="phonenumber-old">I want to keep my existing number
             </label>
             <div class="phonenumber-old">
@@ -61,7 +61,7 @@
       </article>
 
       <article class="plan-selection acordion">
-        <input id="plan-selection" name="acordion" type="checkbox" value="1" >
+        <input id="plan-selection" name="acordion" type="checkbox" value="1">
         <label class="section-title" for="plan-selection">Choose a plan</label>
         <div>
           <h4 class="">Choose between monthly or annually</h4>
@@ -100,9 +100,9 @@
         </div>
       </article>
 
-     
+
       <article class=" hardware-selection acordion">
-        <input id=" hardware-selection" name="acordion" type="checkbox" value="1" >
+        <input id=" hardware-selection" name="acordion" type="checkbox" value="1">
         <label class="section-title" for=" hardware-selection">Hardware</label>
 
         <div>
@@ -129,7 +129,7 @@
           </p>
 
           <div class="form-radio">
-            <input id="landline-base" name="hardware" type="radio" value="1" >
+            <input id="landline-base" name="hardware" type="radio" value="1">
             <label for="landline-base">Landline base $99
               <span class="many-save">76% of our clients buy insurance</span></label>
             <div class="phonenumber-new">
@@ -144,7 +144,7 @@
             </div>
           </div>
           <div class="form-radio">
-            <input id="landline-base-refurbished" name="hardware" type="radio" value="1" >
+            <input id="landline-base-refurbished" name="hardware" type="radio" value="1">
             <label for="landline-base-refurbished">Landline base (Refurbished) $69</label>
             <div class="">
               <h4>
@@ -158,26 +158,26 @@
             </div>
           </div>
           <div class="form-radio">
-            <input id="phone-virtual" name="hardware" type="radio" value="1" >
+            <input id="phone-virtual" name="hardware" type="radio" value="1">
             <label for="phone-virtual">Virtual phone number only $0
               <span class="many-save">Save $99</span>
-               </label>
-               <div>
+            </label>
+            <div>
               Community Phone virtual phone numbers (also known as VoIP
               numbers) are business phone numbers that allow you to forward
               calls to one or multiple devices.
             </div>
-            
+
           </div>
 
           <a class="btn btn-next" href="#2-step">Continue</a>
         </div>
       </article>
 
-     
+
 
       <article class="handset-selection acordion">
-        <input id="handset-selection" name="acordion" type="checkbox" value="1" >
+        <input id="handset-selection" name="acordion" type="checkbox" value="1">
         <label class="section-title" for="handset-selection">Handset</label>
         <div>
           <h4 class="">Choose your phone-number option</h4>
@@ -188,7 +188,7 @@
           </p>
 
           <div class="form-radio">
-            <input id="phone-number" name="handset" type="radio" value="1" >
+            <input id="phone-number" name="handset" type="radio" value="1">
             <label for="phone-number">I don't need a phone-number</label>
           </div>
 
@@ -202,7 +202,7 @@
       </article>
 
       <article class="account-details-selection acordion">
-        <input id="account-details-selection" name="acordion" type="checkbox" value="1" >
+        <input id="account-details-selection" name="acordion" type="checkbox" value="1">
         <label class="section-title" for="account-details-selection">Account details</label>
         <div>
           <h4 class="">Please enter your contact information</h4>
@@ -224,7 +224,15 @@
             <label class="select-hear-about" for="select">How did you hear about us?
               <div class="select">
                 <span class="focus"></span>
-                <select  id="select-hear-about" name="field" required="" ><option value="Select">Select</option><option value="Google">Google</option><option value="Bing">Bing</option><option value="Facebook">Facebook</option><option value="Money Saving Pro">Money Saving Pro</option><option value="Wirefly">Wirefly</option><option value="Referral (word of mouth)">Referral (word of mouth)</option></select>
+                <select id="select-hear-about" name="field" required>
+                  <option value="Select">Select</option>
+                  <option value="Google">Google</option>
+                  <option value="Bing">Bing</option>
+                  <option value="Facebook">Facebook</option>
+                  <option value="Money Saving Pro">Money Saving Pro</option>
+                  <option value="Wirefly">Wirefly</option>
+                  <option value="Referral (word of mouth)">Referral (word of mouth)</option>
+                </select>
               </div>
             </label>
           </form>
@@ -234,7 +242,7 @@
       </article>
 
       <article class="shipping-info-selection acordion">
-        <input id="shipping-info-selection" name="acordion" type="checkbox" value="1" >
+        <input id="shipping-info-selection" name="acordion" type="checkbox" value="1">
         <label class="section-title" for="shipping-info-selection">Shipping info</label>
         <div>
           <h4 class="">Shipping address</h4>
@@ -262,21 +270,72 @@
             <label class="form-select-state" for="state">State
               <div class="select">
                 <span class="focus"></span>
-                <select id="select-state" name="State" required="" ><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="HI">Hawaii</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PA">Pennsylvania</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WY">Wisconsin</option><option value="WY">Wyoming</option></select>
+                <select id="select-state" name="State" required>
+                  <option value="AL">Alabama</option>
+                  <option value="AK">Alaska</option>
+                  <option value="AZ">Arizona</option>
+                  <option value="AR">Arkansas</option>
+                  <option value="CA">California</option>
+                  <option value="CO">Colorado</option>
+                  <option value="CT">Connecticut</option>
+                  <option value="DE">Delaware</option>
+                  <option value="FL">Florida</option>
+                  <option value="GA">Georgia</option>
+                  <option value="HI">Hawaii</option>
+                  <option value="ID">Idaho</option>
+                  <option value="IL">Illinois</option>
+                  <option value="IN">Indiana</option>
+                  <option value="IA">Iowa</option>
+                  <option value="KS">Kansas</option>
+                  <option value="KY">Kentucky</option>
+                  <option value="LA">Louisiana</option>
+                  <option value="ME">Maine</option>
+                  <option value="MD">Maryland</option>
+                  <option value="MA">Massachusetts</option>
+                  <option value="MI">Michigan</option>
+                  <option value="MN">Minnesota</option>
+                  <option value="MS">Mississippi</option>
+                  <option value="MO">Missouri</option>
+                  <option value="MT">Montana</option>
+                  <option value="NE">Nebraska</option>
+                  <option value="NV">Nevada</option>
+                  <option value="NH">New Hampshire</option>
+                  <option value="NJ">New Jersey</option>
+                  <option value="NM">New Mexico</option>
+                  <option value="NY">New York</option>
+                  <option value="NC">North Carolina</option>
+                  <option value="ND">North Dakota</option>
+                  <option value="OH">Ohio</option>
+                  <option value="OK">Oklahoma</option>
+                  <option value="OR">Oregon</option>
+                  <option value="PA">Pennsylvania</option>
+                  <option value="RI">Rhode Island</option>
+                  <option value="SC">South Carolina</option>
+                  <option value="SD">South Dakota</option>
+                  <option value="TN">Tennessee</option>
+                  <option value="TX">Texas</option>
+                  <option value="UT">Utah</option>
+                  <option value="VT">Vermont</option>
+                  <option value="VA">Virginia</option>
+                  <option value="WA">Washington</option>
+                  <option value="WV">West Virginia</option>
+                  <option value="WY">Wisconsin</option>
+                  <option value="WY">Wyoming</option>
+                </select>
               </div>
             </label>
           </form>
 
           <article class="billing-address acordion">
-            <h4 class="check-billing-address">Billing address 
+            <h4 class="check-billing-address">Billing address
             </h4>
 
 
 
-          
-            
-         
-            <input class="check" id="billing-address" name="radio" type="checkbox" value="1" >
+
+
+
+            <input class="check" id="billing-address" name="radio" type="checkbox" value="1">
             <label class="section-sub-title" for="billing-address">Click here if billing address different from
               shipping</label>
 
@@ -303,10 +362,61 @@
                 <label class for="last-name">Zip
                   <input class="form-input" type="text" placeholder="Ex: 10007">
                 </label>
-                <label class="form-select-state"  for="state">State
+                <label class="form-select-state" for="state">State
                   <div class="select">
                     <span class="focus"></span>
-                    <select id="different-select-state" name="State" required="" ><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="HI">Hawaii</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PA">Pennsylvania</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WY">Wisconsin</option><option value="WY">Wyoming</option></select>
+                    <select id="different-select-state" name="State" required>
+                      <option value="AL">Alabama</option>
+                      <option value="AK">Alaska</option>
+                      <option value="AZ">Arizona</option>
+                      <option value="AR">Arkansas</option>
+                      <option value="CA">California</option>
+                      <option value="CO">Colorado</option>
+                      <option value="CT">Connecticut</option>
+                      <option value="DE">Delaware</option>
+                      <option value="FL">Florida</option>
+                      <option value="GA">Georgia</option>
+                      <option value="HI">Hawaii</option>
+                      <option value="ID">Idaho</option>
+                      <option value="IL">Illinois</option>
+                      <option value="IN">Indiana</option>
+                      <option value="IA">Iowa</option>
+                      <option value="KS">Kansas</option>
+                      <option value="KY">Kentucky</option>
+                      <option value="LA">Louisiana</option>
+                      <option value="ME">Maine</option>
+                      <option value="MD">Maryland</option>
+                      <option value="MA">Massachusetts</option>
+                      <option value="MI">Michigan</option>
+                      <option value="MN">Minnesota</option>
+                      <option value="MS">Mississippi</option>
+                      <option value="MO">Missouri</option>
+                      <option value="MT">Montana</option>
+                      <option value="NE">Nebraska</option>
+                      <option value="NV">Nevada</option>
+                      <option value="NH">New Hampshire</option>
+                      <option value="NJ">New Jersey</option>
+                      <option value="NM">New Mexico</option>
+                      <option value="NY">New York</option>
+                      <option value="NC">North Carolina</option>
+                      <option value="ND">North Dakota</option>
+                      <option value="OH">Ohio</option>
+                      <option value="OK">Oklahoma</option>
+                      <option value="OR">Oregon</option>
+                      <option value="PA">Pennsylvania</option>
+                      <option value="RI">Rhode Island</option>
+                      <option value="SC">South Carolina</option>
+                      <option value="SD">South Dakota</option>
+                      <option value="TN">Tennessee</option>
+                      <option value="TX">Texas</option>
+                      <option value="UT">Utah</option>
+                      <option value="VT">Vermont</option>
+                      <option value="VA">Virginia</option>
+                      <option value="WA">Washington</option>
+                      <option value="WV">West Virginia</option>
+                      <option value="WY">Wisconsin</option>
+                      <option value="WY">Wyoming</option>
+                    </select>
                   </div>
                 </label>
               </form>
@@ -328,12 +438,12 @@
             <div class="credit-card-block">
               <div class="credit-card">
                 <div class="header-card">
-                Card details
-<div class="card-lolo">
-<img src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/61685b523f8d018536c8e1d2_ms.svg" alt loading="lazy"><img src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/61685b52f0154d3aca0abf90_visa.svg" alt loading="lazy">
-           </div>   
-</div>
-               
+                  Card details
+                  <div class="card-lolo">
+                    <img src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/61685b523f8d018536c8e1d2_ms.svg" alt loading="lazy"><img src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/61685b52f0154d3aca0abf90_visa.svg" alt loading="lazy">
+                  </div>
+                </div>
+
                 <label class="card-number" for="first-name">Card number
                   <input class="form-input" type="text" placeholder="4111 1111 1111 1111">
                 </label>
@@ -346,13 +456,13 @@
 
 
               <div class="back-credit-card">
-                
+
                 <label class="security-code" for="security-code">Security code
                   <input class="form-input" type="tel" placeholder="***">
                 </label>
 
               </div>
-            </div> 
+            </div>
 
 
 
@@ -414,19 +524,19 @@
           <input id="tax-service-duetoday" name="acordion" type="checkbox" value="1">
           <label class="section-title" for="tax-service-duetoday">Taxes and fees<span class="tax-price">$0</span></label>
           <div>
-        <div class="taxes-fees wrap">
-          <div class="user-zipcode">Based on your Zipcode: 00000</div>
-          <div class="tax-item">
-            <span class="tax-name">Service Tax</span>
-            <span class="tax-price">$0</span>
+            <div class="taxes-fees wrap">
+              <div class="user-zipcode">Based on your Zipcode: 00000</div>
+              <div class="tax-item">
+                <span class="tax-name">Service Tax</span>
+                <span class="tax-price">$0</span>
+              </div>
+              <div class="tax-item">
+                <span class="tax-name">Service Tax</span>
+                <span class="tax-price">$0</span>
+              </div>
+            </div>
           </div>
-          <div class="tax-item">
-            <span class="tax-name">Service Tax</span>
-            <span class="tax-price">$0</span>
-          </div>
-        </div>
-      </div>
-    </article>
+        </article>
         <h4 class="total-item wrap">
           <span class="total-name"> Total due today </span>
           <span class="total-price">$0</span>
@@ -466,19 +576,19 @@
           <input id="tax-service-15day" name="acordion" type="checkbox" value="1">
           <label class="section-title" for="tax-service-15day">Taxes and fees<span class="tax-price">$0</span></label>
           <div>
-        <div class="taxes-fees wrap">
-          <div class="user-zipcode">Based on your Zipcode: 00000</div>
-          <div class="tax-item">
-            <span class="tax-name">Service Tax</span>
-            <span class="tax-price">$0</span>
+            <div class="taxes-fees wrap">
+              <div class="user-zipcode">Based on your Zipcode: 00000</div>
+              <div class="tax-item">
+                <span class="tax-name">Service Tax</span>
+                <span class="tax-price">$0</span>
+              </div>
+              <div class="tax-item">
+                <span class="tax-name">Service Tax</span>
+                <span class="tax-price">$0</span>
+              </div>
+            </div>
           </div>
-          <div class="tax-item">
-            <span class="tax-name">Service Tax</span>
-            <span class="tax-price">$0</span>
-          </div>
-        </div>
-      </div>
-    </article>
+        </article>
 
         <h4 class="total-item wrap">
           <span class="total-name">Service total</span>
@@ -500,7 +610,6 @@
 
 
 
-  
 
 
 
@@ -509,6 +618,171 @@
 
 
 
+
+
+
+
+
+
+  <div class="modalbg modal-choose-phone-number " id="openModal-new-test" style="display: block;">
+    <div class="dialog fade">
+      <div class="modal-search-number popup-bg" style="opacity: 1;">
+        <div class="sticky-header">
+          <div class="modal-header">
+            <h4 class="heading-4-2">Choose a phone number</h4><a class="fal fa-times popup-close" href="#close" title="Close" style="font-size: 48px;"></a>
+          </div>
+          <div class="tabs_menu">
+            <div class="by-area-code current-tab" id="filter-by-area-code">
+              <div class="tab-label">By area code</div>
+            </div>
+            <div class="by-toll-free" id="filter-by-toll-free">
+              <div class="tab-label">By toll-free</div>
+            </div>
+          </div><input class="input-field w-input" id="filter-text-input" name="filter_field" data-name="filter_field" type="text" maxlength="256" placeholder="800">
+        </div>
+        <div class="form-radio">
+          <input id="2" name="phone-number" type="radio" value="1">
+          <label for="2">(844) 463-1064</label>
+        </div>
+        <div class="form-radio">
+          <input id="3" name="phone-number" type="radio" value="3">
+          <label for="3">(844) 463-8437</label>
+        </div>
+        <div class="form-radio">
+          <input id="4" name="phone-number" type="radio" value="4">
+          <label for="4">(844) 463-8711</label>
+        </div>
+        <div class="form-radio">
+          <input id="5" name="phone-number" type="radio" value="5">
+          <label for="5">(844) 463-8712</label>
+        </div>
+        <div class="form-radio">
+          <input id="6" name="phone-number" type="radio" value="6">
+          <label for="6">(844) 463-8714</label>
+        </div>
+        <div class="form-radio">
+          <input id="7" name="phone-number" type="radio" value="7">
+          <label for="7">(844) 463-8717</label>
+        </div>
+        <div class="form-radio">
+          <input id="8" name="phone-number" type="radio" value="8">
+          <label for="8">(844) 463-8718</label>
+        </div>
+        <div class="form-radio">
+          <input id="9" name="phone-number" type="radio" value="9">
+          <label for="9">(844) 463-9696</label>
+        </div>
+        <div class="form-radio">
+          <input id="10" name="phone-number" type="radio" value="10">
+          <label for="10">(844) 464-2718</label>
+        </div>
+
+        <h1 class="heading-4-2" id="available-numbers-title" style="opacity: 1;">Available numbers</h1>
+        <p class="paragraph" id="available-numbers-subtitle">$10 up-front to purchase your number, and $29/month for
+          unlimited inbound and outbound calls</p>
+        <div class="phone-numbers-empty-state" id="phone-numbers-empty-state" style="opacity: 1;display: block;">
+          <img src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/610269ae1856076ce6f39f8e_img-empty-state.svg" alt loading="lazy">
+         
+          <h1 class="heading-4">There are no phone numbers here</h1>
+          <div class="body-2">Try looking for another phone number</div>
+          <div class="devider-4px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+ <div class="modalbg modal-choose-phone-number " id="openModal-new-test2" style="display: block;">
+    <div class="dialog fade">
+      <div class="modal-search-number popup-bg" style="opacity: 1;">
+        <div class="sticky-header">
+          <div class="modal-header">
+            <h4 class="heading-4-2">Choose a phone number</h4><a class="fal fa-times popup-close" href="#close" title="Close" style="font-size: 48px;"></a>
+          </div>
+          <div class="tabs_menu">
+            <div class="by-area-code current-tab" id="filter-by-area-code">
+              <div class="tab-label">By area code</div>
+            </div>
+            <div class="by-toll-free" id="filter-by-toll-free">
+              <div class="tab-label">By toll-free</div>
+            </div>
+          </div><input class="input-field w-input" id="filter-text-input" name="filter_field" data-name="filter_field" type="text" maxlength="256" placeholder="800">
+        </div>
+      
+        
+        <div class="acordion">
+
+          <input id="01" name="radio" type="checkbox" value="1">
+          <label class for="01">AT&T (landline) </label>
+          <div>
+            Account # is the 10-digit phone number and the PIN is the 4 digits to the immediate right of the phone
+            number in the top right corner of your bill.
+          </div>
+
+          <input id="02" name="radio" type="checkbox" value="1">
+          <label class for="02">AT&T (wireless) </label>
+          <div>
+            Account number will be on the bill (it is NOT the phone number), enter it without the dash. Your PIN is
+            usually the last 4 digits of your telephone number. It cannot be found on your bill, invoice or online
+            account. You can call AT&T at 1-800-331-0500. For bundled bills, the account number will be a 12-digit
+            number under your wireless account summary. Also, (only for bundled bills) you will need to call AT&T
+            customer service for the passcode – it will be a 4 digit PIN number that they provide to you.
+          </div>
+
+          <input id="03" name="radio" type="checkbox" value="1">
+          <label class for="03">CenturyLink </label>
+          <div>
+            Account number is in the upper right hand corner of your bill. It’s your phone number plus 3 digits. If you
+            can’t find it you will need to contact CenturyLink at 1-888-638-6771. Passcode is 0000.
+          </div>
+
+          <input id="04" name="radio" type="checkbox" value="1">
+          <label class for="04">Consumer Cellular</label>
+          <div>
+            Account number can be found online or by calling Consumer Cellular – it is a 9 digit number. There’s no
+            passcode, so leave the PIN field empty. You may also need to call Consumer Cellular’s porting department at
+            (888) 750-5519 and ask them to manually release your number.
+          </div>
+        </div>
+
+        <h1 class="heading-4-2" id="available-numbers-title" style="opacity: 1;">Available numbers</h1>
+        <p class="paragraph" id="available-numbers-subtitle">$10 up-front to purchase your number, and $29/month for
+          unlimited inbound and outbound calls</p>
+        <div class="phone-numbers-empty-state" id="phone-numbers-empty-state" style="opacity: 1;display: block;">
+          <img src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/610269ae1856076ce6f39f8e_img-empty-state.svg" alt loading="lazy">
+         
+          <h1 class="heading-4">There are no phone numbers here</h1>
+          <div class="body-2">Try looking for another phone number</div>
+          <div class="devider-4px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
   <div class="modalbg" id="openModal">
     <div class="dialog">
 
@@ -521,10 +795,7 @@
       </div>
 
       <div class="popup-body">
-        <div class="form-radio" href="#close" title="Close">
-          <input id="1" name="phone-number" type="radio" value="1">
-          <label for="1">(844) 463-1063</label>
-        </div>
+        
         <div class="form-radio">
           <input id="2" name="phone-number" type="radio" value="2">
           <label for="2">(844) 463-1064</label>
@@ -566,21 +837,12 @@
 
 
     </div>
-  </div>
+  </div> -->
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+<!-- 
 
   <div class="modalbg" id="openModal-carrier">
     <div class="dialog">
@@ -590,8 +852,9 @@
         <h1 class="popup-title">Choose your previous carrier</h1>
         <p>Your previous carrier won't release your number to us unless we can confirm your account details with them.
         </p>
-
-
+      </div>
+      <div class="modal-header">
+        <h4 class="heading-4-2">Choose a phone number</h4><img class="ic-close" id="close-button" data-w-id="66dfc911-657a-a836-7927-1a5606c60f63" src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/60ffc08c21953d74aa0d2d54_ic-close.svg" alt loading="lazy">
       </div>
 
       <div class="popup-body">
@@ -605,8 +868,6 @@
             Account # is the 10-digit phone number and the PIN is the 4 digits to the immediate right of the phone
             number in the top right corner of your bill.
           </div>
-
-
 
           <input id="02" name="radio" type="checkbox" value="1">
           <label class for="02">AT&T (wireless) </label>
@@ -634,79 +895,24 @@
             (888) 750-5519 and ask them to manually release your number.
           </div>
 
-
-
-
-
-
-
-
         </div>
-
-
-
-
-
-
-
       </div>
     </div>
   </div>
 
 
 
+ -->
 
 
 
-  <label for="standard-select">Standard Select</label>
-  <div class="select">
-    <span class="focus"></span>
-    <select id="standard-select">
-      <option value="Option 1">Option 1</option>
-      <option value="Option 2">Option 2</option>
-      <option value="Option 3">Option 3</option>
-      <option value="Option 4">Option 4</option>
-      <option value="Option 5">Option 5</option>
-      <option value="Option length">Option that has too long of a value to fit</option>
-    </select>
-  </div>
-  
-  <label for="multi-select">Multiple Select</label>
-  <div class="select select--multiple">
-    <select id="multi-select" multiple>
-      <option value="Option 1">Option 1</option>
-      <option value="Option 2">Option 2</option>
-      <option value="Option 3">Option 3</option>
-      <option value="Option 4">Option 4</option>
-      <option value="Option 5">Option 5</option>
-      <option value="Option length">Option that has too long of a value to fit</option>
-    </select>
-    <span class="focus"></span>
-  </div>
-  
-  <label for="standard-select-disabled">Disabled Select</label>
-  <div class="select select--disabled">
-    <select id="standard-select-disabled" disabled>
-      <option value="Option 1">Option 1</option>
-      <option value="Option 2">Option 2</option>
-      <option value="Option 3">Option 3</option>
-      <option value="Option 4">Option 4</option>
-      <option value="Option 5">Option 5</option>
-      <option value="Option length">Option that is a long value and could wrap</option>
-    </select>
-  </div>
-  
-  <label for="standard-select">Disabled Multiple Select</label>
-  <div class="select select--disabled select--multiple">
-    <select id="multi-select-disabled" multiple disabled>
-      <option value="Option 1">Option 1</option>
-      <option value="Option 2">Option 2</option>
-      <option value="Option 3">Option 3</option>
-      <option value="Option 4">Option 4</option>
-      <option value="Option 5">Option 5</option>
-      <option value="Option length">Option that is a long value and could wrap</option>
-    </select>
-  </div>
+
+
+
+
+
+
+
 
 
 
