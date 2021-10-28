@@ -6,15 +6,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- fonts -->
- <link href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+  <!-- fonts -->
+  <link href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
   <!-- end fonts -->
-<!-- css -->
+  <!-- css -->
   <link href="global.css" rel="stylesheet">
   <link href="popups.css" rel="stylesheet">
-  
+
   <link href="secure-checkout.css" rel="stylesheet">
 
   <title>Hello, world!</title>
@@ -30,20 +30,21 @@
   <main>
     <!-- step forms -->
     <section class="forms-step">
+
       <article class="phonenumber-selection acordion">
-        <input id="phonenumber-selection" name="radio" type="checkbox" value="1" checked="checked">
+        <input id="phonenumber-selection" name="acordion" type="checkbox" value="1" checked="checked">
         <label class="section-title" for="phonenumber-selection">Number selection</label>
         <div>
           <div class="form-radio">
-            <input id="phonenumber-new" name="radio" type="radio" value="1" checked="checked">
-            <label for="phonenumber-new">I want a new number </label>
+            <input id="phonenumber-new" name="phonenumber" type="radio" value="1" checked="checked">
+            <label for="phonenumber-new">Your new number </label>
             <div class="phonenumber-new">
               <h1>(544) 455-7657</h1>
               <a href="#openModal">Pick a different phone number</a>
             </div>
           </div>
           <div class="form-radio">
-            <input id="phonenumber-old" name="radio" type="radio" value="2" checked>
+            <input id="phonenumber-old" name="phonenumber" type="radio" value="1" >
             <label for="phonenumber-old">I want to keep my existing number
             </label>
             <div class="phonenumber-old">
@@ -60,7 +61,7 @@
       </article>
 
       <article class="plan-selection acordion">
-        <input id="plan-selection" name="radio" type="checkbox" value="1" checked="checked">
+        <input id="plan-selection" name="acordion" type="checkbox" value="1" >
         <label class="section-title" for="plan-selection">Choose a plan</label>
         <div>
           <h4 class="">Choose between monthly or annually</h4>
@@ -70,12 +71,12 @@
           </p>
 
           <div class="form-radio">
-            <input id="plan-monthly" name="radio" type="radio" value="1" checked>
+            <input id="plan-monthly" name="plan" type="radio" value="1" checked>
             <label for="plan-monthly">Monthly $39/m</label>
           </div>
 
           <div class="form-radio">
-            <input id="plan-annual" name="radio" type="radio" value="1">
+            <input id="plan-annual" name="plan" type="radio" value="1">
             <label for="plan-annual">Annual $35.75/m
               <span class="many-save">Save $39</span>
               <span class="billed-annually">*Billed annually at $429</span>
@@ -99,10 +100,10 @@
         </div>
       </article>
 
-      <!-- ================== -->
-      <article class="рardware-selection acordion">
-        <input id="рardware-selection" name="radio" type="checkbox" value="1" checked="checked">
-        <label class="section-title" for="рardware-selection">Hardware</label>
+     
+      <article class=" hardware-selection acordion">
+        <input id=" hardware-selection" name="acordion" type="checkbox" value="1" >
+        <label class="section-title" for=" hardware-selection">Hardware</label>
 
         <div>
           <h4 class="">One-time payment of $99 for the landline base</h4>
@@ -128,7 +129,7 @@
           </p>
 
           <div class="form-radio">
-            <input id="landline-base" name="radio" type="radio" value="1" checked="checked">
+            <input id="landline-base" name="hardware" type="radio" value="1" >
             <label for="landline-base">Landline base $99
               <span class="many-save">76% of our clients buy insurance</span></label>
             <div class="phonenumber-new">
@@ -143,9 +144,9 @@
             </div>
           </div>
           <div class="form-radio">
-            <input id="landline-base-refurbished" name="radio" type="radio" value="1" checked="checked">
+            <input id="landline-base-refurbished" name="hardware" type="radio" value="1" >
             <label for="landline-base-refurbished">Landline base (Refurbished) $69</label>
-            <div class="phonenumber-new">
+            <div class="">
               <h4>
                 Get peace of mind by insuring your landline base against
               </h4>
@@ -157,27 +158,27 @@
             </div>
           </div>
           <div class="form-radio">
-            <input id="landline-base-refurbished" name="radio" type="radio" value="1" checked="checked">
-            <label for="landline-base-refurbished">Virtual phone number only $0
+            <input id="phone-virtual" name="hardware" type="radio" value="1" >
+            <label for="phone-virtual">Virtual phone number only $0
               <span class="many-save">Save $99</span>
-            </label>
-
-            <p>
+               </label>
+               <div>
               Community Phone virtual phone numbers (also known as VoIP
               numbers) are business phone numbers that allow you to forward
               calls to one or multiple devices.
-            </p>
+            </div>
+            
           </div>
 
           <a class="btn btn-next" href="#2-step">Continue</a>
         </div>
       </article>
 
-      <!-- ================== -->
+     
 
-      <article class="phone-number-selection acordion">
-        <input id="phone-number-selection" name="radio" type="checkbox" value="1" checked="checked">
-        <label class="section-title" for="phone-number-selection">phone-number </label>
+      <article class="handset-selection acordion">
+        <input id="handset-selection" name="acordion" type="checkbox" value="1" >
+        <label class="section-title" for="handset-selection">Handset</label>
         <div>
           <h4 class="">Choose your phone-number option</h4>
           <p>
@@ -187,12 +188,12 @@
           </p>
 
           <div class="form-radio">
-            <input id="phone-number" name="phone-number" type="radio" value="1" checked>
+            <input id="phone-number" name="handset" type="radio" value="1" >
             <label for="phone-number">I don't need a phone-number</label>
           </div>
 
           <div class="form-radio">
-            <input id="phone-corded" name="phone-number" type="radio" value="2">
+            <input id="phone-corded" name="handset" type="radio" value="1">
             <label for="phone-corded">Single corded phone $39</label>
           </div>
 
@@ -201,7 +202,7 @@
       </article>
 
       <article class="account-details-selection acordion">
-        <input id="account-details-selection" name="radio" type="checkbox" value="1" checked="checked">
+        <input id="account-details-selection" name="acordion" type="checkbox" value="1" >
         <label class="section-title" for="account-details-selection">Account details</label>
         <div>
           <h4 class="">Please enter your contact information</h4>
@@ -234,7 +235,7 @@
       </article>
 
       <article class="shipping-info-selection acordion">
-        <input id="shipping-info-selection" name="radio" type="checkbox" value="1" checked="checked">
+        <input id="shipping-info-selection" name="acordion" type="checkbox" value="1" checked="checked">
         <label class="section-title" for="shipping-info-selection">Shipping info</label>
         <div>
           <h4 class="">Shipping address</h4>
@@ -297,19 +298,57 @@
       </article>
 
       <article class="payment-selection acordion">
-        <input id="payment-selection" name="radio" type="checkbox" value="1" checked="checked">
+        <input id="payment-selection" name="acordion" type="checkbox" value="1" checked="checked">
         <label class="section-title" for="payment-selection">Payment</label>
         <div>
           <form class="payment" name="payment">
-            <label class="card-number" for="first-name">Card number
-              <input class="form-input" type="text" placeholder="4111 1111 1111 1111">
-            </label>
-            <label class="exp-date" for="exp-date">Exp date
-              <input class="form-input" type="text" placeholder="Ex: Brown">
-            </label>
-            <label class="security-code" for="security-code">Security code
-              <input class="form-input" type="tel" placeholder="Ex: (800) 000-0000">
-            </label>
+
+
+
+
+
+
+
+
+            <div class="credit-card-block">
+              <div class="credit-card">
+                <div class="header-card">
+                Card details
+<div class="card-lolo">
+<img src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/61685b523f8d018536c8e1d2_ms.svg" alt loading="lazy"><img src="https://assets.website-files.com/60c30ab447d78d3beb1f6c82/61685b52f0154d3aca0abf90_visa.svg" alt loading="lazy">
+           </div>   
+</div>
+               
+                <label class="card-number" for="first-name">Card number
+                  <input class="form-input" type="text" placeholder="4111 1111 1111 1111">
+                </label>
+
+                <label class="exp-date" for="exp-date">Exp date
+                  <input class="form-input" type="text" placeholder="Ex: Brown">
+                </label>
+
+              </div>
+
+
+              <div class="back-credit-card">
+                
+                <label class="security-code" for="security-code">Security code
+                  <input class="form-input" type="tel" placeholder="***">
+                </label>
+
+              </div>
+            </div> 
+
+
+
+
+
+
+
+
+
+
+
           </form>
           <p>100% Secure payment</p>
 
@@ -324,7 +363,7 @@
         </div>
       </article>
 
-     
+
     </section>
 
     <!--  end step forms -->
@@ -449,137 +488,146 @@
   <div class="modalbg" id="openModal">
     <div class="dialog">
 
-<div class="popup-head">
-  <a class="fal fa-times popup-close" href="#close" title="Close" style="font-size: 48px;"></a>
- <h1 class="popup-title">Available numbers</h1>
+      <div class="popup-head">
+        <a class="fal fa-times popup-close" href="#close" title="Close" style="font-size: 48px;"></a>
+        <h1 class="popup-title">Available numbers</h1>
 
         <input class="form-input" name="filter_field" type="text" placeholder="800">
-  
-</div>
 
-<div class="popup-body">
-      <div class="form-radio" href="#close" title="Close">
-        <input id="1" name="phone-number" type="radio" value="1">
-         <label for="1">(844) 463-1063</label>
-      </div>
-      <div class="form-radio">
-        <input id="2" name="phone-number" type="radio" value="2">
-        <label for="2">(844) 463-1064</label>
-      </div>
-      <div class="form-radio">
-        <input id="3" name="phone-number" type="radio" value="3">
-        <label for="3">(844) 463-8437</label>
-      </div>
-      <div class="form-radio">
-        <input id="4" name="phone-number" type="radio" value="4">
-        <label for="4">(844) 463-8711</label>
-      </div>
-      <div class="form-radio">
-        <input id="5" name="phone-number" type="radio" value="5">
-        <label for="5">(844) 463-8712</label>
-      </div>
-      <div class="form-radio">
-        <input id="6" name="phone-number" type="radio" value="6">
-        <label for="6">(844) 463-8714</label>
-      </div>
-      <div class="form-radio">
-        <input id="7" name="phone-number" type="radio" value="7">
-        <label for="7">(844) 463-8717</label>
-      </div>
-      <div class="form-radio">
-        <input id="8" name="phone-number" type="radio" value="8">
-        <label for="8">(844) 463-8718</label>
-      </div>
-      <div class="form-radio">
-        <input id="9" name="phone-number" type="radio" value="9">
-        <label for="9">(844) 463-9696</label>
-      </div>
-      <div class="form-radio">
-        <input id="10" name="phone-number" type="radio" value="10">
-        <label for="10">(844) 464-2718</label>
       </div>
 
-    </div>
-
-
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="modalbg" id="openModal-carrier">
-  <div class="dialog">
-
-    <div class="popup-head">
-      <a class="fal fa-times popup-close" href="#close" title="Close" style="font-size: 48px;"></a>
-      <h1 class="popup-title">Choose your previous carrier</h1>
-<p>Your previous carrier won't release your number to us unless we can confirm your account details with them.</p>
-    
-
-    </div>
-
-    <div class="popup-body">
-
-      <div class="acordion">
-
-
-        <input id="01" name="radio" type="checkbox" value="1" >
-        <label class="" for="01">AT&T (landline) </label>
-        <div>
-          Account # is the 10-digit phone number and the PIN is the 4 digits to the immediate right of the phone number in the top right corner of  your bill.
+      <div class="popup-body">
+        <div class="form-radio" href="#close" title="Close">
+          <input id="1" name="phone-number" type="radio" value="1">
+          <label for="1">(844) 463-1063</label>
+        </div>
+        <div class="form-radio">
+          <input id="2" name="phone-number" type="radio" value="2">
+          <label for="2">(844) 463-1064</label>
+        </div>
+        <div class="form-radio">
+          <input id="3" name="phone-number" type="radio" value="3">
+          <label for="3">(844) 463-8437</label>
+        </div>
+        <div class="form-radio">
+          <input id="4" name="phone-number" type="radio" value="4">
+          <label for="4">(844) 463-8711</label>
+        </div>
+        <div class="form-radio">
+          <input id="5" name="phone-number" type="radio" value="5">
+          <label for="5">(844) 463-8712</label>
+        </div>
+        <div class="form-radio">
+          <input id="6" name="phone-number" type="radio" value="6">
+          <label for="6">(844) 463-8714</label>
+        </div>
+        <div class="form-radio">
+          <input id="7" name="phone-number" type="radio" value="7">
+          <label for="7">(844) 463-8717</label>
+        </div>
+        <div class="form-radio">
+          <input id="8" name="phone-number" type="radio" value="8">
+          <label for="8">(844) 463-8718</label>
+        </div>
+        <div class="form-radio">
+          <input id="9" name="phone-number" type="radio" value="9">
+          <label for="9">(844) 463-9696</label>
+        </div>
+        <div class="form-radio">
+          <input id="10" name="phone-number" type="radio" value="10">
+          <label for="10">(844) 464-2718</label>
         </div>
 
-
-
-        <input id="02" name="radio" type="checkbox" value="1" >
-        <label class="" for="02">AT&T (wireless) </label>
-        <div>
-          Account number will be on the bill (it is NOT the phone number), enter it without the dash. Your PIN is usually the last 4 digits of your telephone number.  It cannot be found on your bill, invoice or online account. You can call AT&T at 1-800-331-0500. For bundled bills, the account number will be a 12-digit number under your wireless account summary. Also, (only for bundled bills) you will need to call AT&T customer service for the passcode – it will be a 4 digit PIN number that they provide to you.
-        </div>
-
-
-        <input id="03" name="radio" type="checkbox" value="1" >
-        <label class="" for="03">CenturyLink </label>
-        <div>
-          Account number is in the upper right hand corner of your bill. It’s your phone number plus 3 digits. If you can’t find it you will need to contact CenturyLink at 1-888-638-6771. Passcode is 0000.
-        </div>
-
-        <input id="04" name="radio" type="checkbox" value="1" >
-        <label class="" for="04">Consumer Cellular</label>
-        <div>
-          Account number can be found online or by calling Consumer Cellular – it is a 9 digit number. There’s no passcode, so leave the PIN field empty. You may also need to call Consumer Cellular’s porting department at (888) 750-5519 and ask them to manually release your number.
-        </div>
-
-
-
-
-
-
-
-
       </div>
-
-
-
-
-
 
 
     </div>
   </div>
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="modalbg" id="openModal-carrier">
+    <div class="dialog">
+
+      <div class="popup-head">
+        <a class="fal fa-times popup-close" href="#close" title="Close" style="font-size: 48px;"></a>
+        <h1 class="popup-title">Choose your previous carrier</h1>
+        <p>Your previous carrier won't release your number to us unless we can confirm your account details with them.
+        </p>
+
+
+      </div>
+
+      <div class="popup-body">
+
+        <div class="acordion">
+
+
+          <input id="01" name="radio" type="checkbox" value="1">
+          <label class for="01">AT&T (landline) </label>
+          <div>
+            Account # is the 10-digit phone number and the PIN is the 4 digits to the immediate right of the phone
+            number in the top right corner of your bill.
+          </div>
+
+
+
+          <input id="02" name="radio" type="checkbox" value="1">
+          <label class for="02">AT&T (wireless) </label>
+          <div>
+            Account number will be on the bill (it is NOT the phone number), enter it without the dash. Your PIN is
+            usually the last 4 digits of your telephone number. It cannot be found on your bill, invoice or online
+            account. You can call AT&T at 1-800-331-0500. For bundled bills, the account number will be a 12-digit
+            number under your wireless account summary. Also, (only for bundled bills) you will need to call AT&T
+            customer service for the passcode – it will be a 4 digit PIN number that they provide to you.
+          </div>
+
+
+          <input id="03" name="radio" type="checkbox" value="1">
+          <label class for="03">CenturyLink </label>
+          <div>
+            Account number is in the upper right hand corner of your bill. It’s your phone number plus 3 digits. If you
+            can’t find it you will need to contact CenturyLink at 1-888-638-6771. Passcode is 0000.
+          </div>
+
+          <input id="04" name="radio" type="checkbox" value="1">
+          <label class for="04">Consumer Cellular</label>
+          <div>
+            Account number can be found online or by calling Consumer Cellular – it is a 9 digit number. There’s no
+            passcode, so leave the PIN field empty. You may also need to call Consumer Cellular’s porting department at
+            (888) 750-5519 and ask them to manually release your number.
+          </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
 
 
 

@@ -68,12 +68,12 @@ h3 {
 h4 {
   font-size: 20px;
   font-weight: 600;
-  /* padding: 0 0 15px; */
+  padding: 0 0 10px;
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 15px;
   color: #686d79;
   /* font-size: 16px; */
   font-weight: 500;

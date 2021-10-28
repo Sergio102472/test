@@ -27,8 +27,7 @@
   /* flex-wrap: wrap; */
   /* column-gap: 25px; */
   margin-left: 8%;
-  max-height: 81vh;
- 
+  max-height: 90vh;
 }
 .forms-step {
   counter-reset: my-awesome-counter;
@@ -144,7 +143,7 @@ ul.product-list li {
   width: 100%;
 }
 .forms-step .section-title {
-  padding: 24px 0px 8px;
+  padding: 24px 0px 15px;
   border-bottom: solid 1px #cbcbcb;
   margin: 29px 0;
   font-size: 28px;
@@ -249,10 +248,13 @@ h4.your-plan-include {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 0 20px;
+  padding: 15px 15px;
+  margin: 0 0px;
+  /* position: relative; */
+  /* z-index: 10; */
 }
 .list-img img {
-  width: 16%;
+  width: 12%;
   transition: all 200ms ease-in;
   transform: scale(1);
   -webkit-transition: all 200ms ease-in;
@@ -261,11 +263,15 @@ h4.your-plan-include {
   -ms-transform: scale(1);
   -moz-transition: all 200ms ease-in;
   -moz-transform: scale(1);
-}
-.list-img img:hover {
   border-radius: 15px;
   background-color: #fff;
-
+  margin: 15px;
+  /* position: relative; */
+  /* z-index: 10; */
+}
+.list-img img:hover {
+  /* border-radius: 15px; */
+  /* background-color: #fff; */
   z-index: 2;
   transition: all 200ms ease-in;
   transform: scale(1.5);
@@ -311,3 +317,83 @@ form.account-details label {
   width: 45%;
   margin: 0px 15px 15px 0px;
 }
+
+
+/* ============= */
+
+.credit-card-block {position: relative;margin-bottom: 20px;}
+.credit-card-block .back-credit-card, 
+.credit-card-block .credit-card {
+    position: absolute;
+    width: 480px;
+    height: 229px;
+    padding: 40px 40px 56px;
+    border-radius: 24px;
+    background-color: #edf2f7;
+    /* background-image: none; */
+    box-shadow: inset 0 0 0 1px #ccd2e8, 8px 5px 10px -6px rgba(0, 0, 0, 0.06);
+    /* font-family: 'Droid Sans', sans-serif; */
+    /* color: #ea4c46; */
+    /* font-size: 12px; */
+    /* text-align: center; */
+    z-index: 50;
+}
+.credit-card-block .credit-card .header-card {
+    font-size: 20px;
+    /* height: 44px; */
+    /* display: block; */
+    /* display: -webkit-box; */
+    /* display: -webkit-flex; */
+    display: -ms-flexbox;
+    display: flex;
+    /* -webkit-box-pack: justify; */
+    /* -webkit-justify-content: space-between; */
+    -ms-flex-pack: justify;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.credit-card-block .back-credit-card {
+    position: static;
+    /* width: 480px; */
+    /* height: 304px; */
+    margin-left: 164px;
+    /* padding: 40px 40px 56px; */
+    /* border-radius: 24px; */
+    /* background-color: #ebf1f7; */
+    /* background-image: none; */
+    /* box-shadow: inset 0 0 0 1px #ccd2e8, 0 11px 6px -6px rgba(0, 0, 0, 0.06); */
+    /* font-family: 'Droid Sans', sans-serif; */
+    /* color: #ea4c46; */
+    /* font-size: 12px; */
+    /* text-align: center; */
+}
+
+
+.credit-card .card-number {
+    margin-top: 37px;
+    display: block;
+    width: 100%;
+}
+
+.credit-card .exp-date{
+    margin-top: 21px;
+    display: block;
+    width: 40%;
+}
+
+
+.back-credit-card .security-code {
+    position: absolute;
+    bottom: 32px;
+    right: 10px;
+    width: 121px;
+}
+
+
+
+
+
+
