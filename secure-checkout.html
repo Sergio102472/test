@@ -6,10 +6,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-  <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
-  <!-- css -->
+<!-- fonts -->
+ <link href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+  <!-- end fonts -->
+<!-- css -->
   <link href="global.css" rel="stylesheet">
+  <link href="popups.css" rel="stylesheet">
+  
   <link href="secure-checkout.css" rel="stylesheet">
 
   <title>Hello, world!</title>
@@ -34,7 +39,7 @@
             <label for="phonenumber-new">I want a new number </label>
             <div class="phonenumber-new">
               <h1>(544) 455-7657</h1>
-              <a href="####">Pick a different phone number</a>
+              <a href="#openModal">Pick a different phone number</a>
             </div>
           </div>
           <div class="form-radio">
@@ -47,7 +52,7 @@
                 To keep your existing number, you will need to share some
                 information about your current provider.
               </p>
-              <a href="####">Pick a different phone number</a>
+              <a href="#openModal-carrier">Click here to learn more</a>
             </div>
           </div>
           <a class="btn btn-next" href="#2-step">Continue</a>
@@ -170,24 +175,24 @@
 
       <!-- ================== -->
 
-      <article class="handset-selection acordion">
-        <input id="handset-selection" name="radio" type="checkbox" value="1" checked="checked">
-        <label class="section-title" for="handset-selection">Handset </label>
+      <article class="phone-number-selection acordion">
+        <input id="phone-number-selection" name="radio" type="checkbox" value="1" checked="checked">
+        <label class="section-title" for="phone-number-selection">phone-number </label>
         <div>
-          <h4 class="">Choose your handset option</h4>
+          <h4 class="">Choose your phone-number option</h4>
           <p>
             The landline base works with just about any landline phone. If you
-            don’t already have a phone, this AT&T landline handset has a
+            don’t already have a phone, this AT&T landline phone-number has a
             backup battery, which allows it to work during power outages.
           </p>
 
           <div class="form-radio">
-            <input id="handset-dont" name="handset" type="radio" value="1" checked>
-            <label for="handset-dont">I don't need a handset</label>
+            <input id="phone-number" name="phone-number" type="radio" value="1" checked>
+            <label for="phone-number">I don't need a phone-number</label>
           </div>
 
           <div class="form-radio">
-            <input id="phone-corded" name="handset" type="radio" value="2">
+            <input id="phone-corded" name="phone-number" type="radio" value="2">
             <label for="phone-corded">Single corded phone $39</label>
           </div>
 
@@ -428,6 +433,168 @@
 
     <!-- end order-summary -->
   </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="modalbg" id="openModal">
+    <div class="dialog">
+
+<div class="popup-head">
+  <a class="fal fa-times popup-close" href="#close" title="Close" style="font-size: 48px;"></a>
+ <h1 class="popup-title">Available numbers</h1>
+
+        <input class="form-input" name="filter_field" type="text" placeholder="800">
+  
+</div>
+
+<div class="popup-body">
+      <div class="form-radio" href="#close" title="Close">
+        <input id="1" name="phone-number" type="radio" value="1">
+         <label for="1">(844) 463-1063</label>
+      </div>
+      <div class="form-radio">
+        <input id="2" name="phone-number" type="radio" value="2">
+        <label for="2">(844) 463-1064</label>
+      </div>
+      <div class="form-radio">
+        <input id="3" name="phone-number" type="radio" value="3">
+        <label for="3">(844) 463-8437</label>
+      </div>
+      <div class="form-radio">
+        <input id="4" name="phone-number" type="radio" value="4">
+        <label for="4">(844) 463-8711</label>
+      </div>
+      <div class="form-radio">
+        <input id="5" name="phone-number" type="radio" value="5">
+        <label for="5">(844) 463-8712</label>
+      </div>
+      <div class="form-radio">
+        <input id="6" name="phone-number" type="radio" value="6">
+        <label for="6">(844) 463-8714</label>
+      </div>
+      <div class="form-radio">
+        <input id="7" name="phone-number" type="radio" value="7">
+        <label for="7">(844) 463-8717</label>
+      </div>
+      <div class="form-radio">
+        <input id="8" name="phone-number" type="radio" value="8">
+        <label for="8">(844) 463-8718</label>
+      </div>
+      <div class="form-radio">
+        <input id="9" name="phone-number" type="radio" value="9">
+        <label for="9">(844) 463-9696</label>
+      </div>
+      <div class="form-radio">
+        <input id="10" name="phone-number" type="radio" value="10">
+        <label for="10">(844) 464-2718</label>
+      </div>
+
+    </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modalbg" id="openModal-carrier">
+  <div class="dialog">
+
+    <div class="popup-head">
+      <a class="fal fa-times popup-close" href="#close" title="Close" style="font-size: 48px;"></a>
+      <h1 class="popup-title">Choose your previous carrier</h1>
+<p>Your previous carrier won't release your number to us unless we can confirm your account details with them.</p>
+    
+
+    </div>
+
+    <div class="popup-body">
+
+      <div class="acordion">
+
+
+        <input id="01" name="radio" type="checkbox" value="1" >
+        <label class="" for="01">AT&T (landline) </label>
+        <div>
+          Account # is the 10-digit phone number and the PIN is the 4 digits to the immediate right of the phone number in the top right corner of  your bill.
+        </div>
+
+
+
+        <input id="02" name="radio" type="checkbox" value="1" >
+        <label class="" for="02">AT&T (wireless) </label>
+        <div>
+          Account number will be on the bill (it is NOT the phone number), enter it without the dash. Your PIN is usually the last 4 digits of your telephone number.  It cannot be found on your bill, invoice or online account. You can call AT&T at 1-800-331-0500. For bundled bills, the account number will be a 12-digit number under your wireless account summary. Also, (only for bundled bills) you will need to call AT&T customer service for the passcode – it will be a 4 digit PIN number that they provide to you.
+        </div>
+
+
+        <input id="03" name="radio" type="checkbox" value="1" >
+        <label class="" for="03">CenturyLink </label>
+        <div>
+          Account number is in the upper right hand corner of your bill. It’s your phone number plus 3 digits. If you can’t find it you will need to contact CenturyLink at 1-888-638-6771. Passcode is 0000.
+        </div>
+
+        <input id="04" name="radio" type="checkbox" value="1" >
+        <label class="" for="04">Consumer Cellular</label>
+        <div>
+          Account number can be found online or by calling Consumer Cellular – it is a 9 digit number. There’s no passcode, so leave the PIN field empty. You may also need to call Consumer Cellular’s porting department at (888) 750-5519 and ask them to manually release your number.
+        </div>
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>

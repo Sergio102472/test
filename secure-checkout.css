@@ -1,4 +1,10 @@
 /* order-summary ---------------------------------- */
+
+
+
+
+
+
 .order-summary {
   overflow: auto;
   /* position: sticky; */
@@ -22,7 +28,32 @@
   /* column-gap: 25px; */
   margin-left: 8%;
   max-height: 81vh;
+ 
 }
+.forms-step {
+  counter-reset: my-awesome-counter;
+}
+.forms-step > article > .section-title {
+  counter-increment: my-awesome-counter;
+}
+
+.forms-step > article > .section-title::before {
+  content: counter(my-awesome-counter);
+  /* background: #662974; */
+  /* width: 2rem; */
+  /* height: 2rem; */
+  border-radius: 50%;
+  display: inline-block;
+  /* line-height: 2rem; */
+  color: #0b1729;
+  text-align: center;
+  margin-right: 0.5rem;
+  width: 32px;
+  height: 32px;
+  background-color: #d9d9d9;
+}
+
+
 .order-summary .wrap {
   margin: 0 0 20px 0;
 }
@@ -55,7 +86,7 @@ ul.product-list li {
 .product-item .product-info .product-description {
 }
 .product-item .product-price {
-  font-weight: bold;
+  font-weight: 600;
   margin-left: auto;
 }
 
@@ -109,7 +140,7 @@ ul.product-list li {
 /* step forms ----------------------------------------- */
 
 .forms-step {
-  font-size: 15px;
+  /* font-size: 15px; */
   width: 100%;
 }
 .forms-step .section-title {
@@ -122,11 +153,13 @@ ul.product-list li {
   color: #0b1729;
   display: flex;
   background: transparent;
-  font-family: Gilroy, sans-serif;
+  font-family: 'Gilroy', sans-serif;
+  align-items: center;
 }
 .forms-step .acordion input:checked + .section-title + div {
   background-color: transparent;
   padding: 0px;
+  /* margin: 0 15px 15px; */
 }
 .forms-step .section-title::after {
 }
@@ -150,26 +183,26 @@ ul.product-list li {
   font-weight: 600;
   /* margin: 0 0 6px; */
   /* display: block; */
-  display: flex;
+  /* display: flex; */
   /* flex-direction: row; */
   /* width: 100%; */
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 16px 24px 16px 40px;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  /* padding: 16px 24px 16px 40px; */
   /* min-height: 35px; */
 }
-.forms-step label + div {
+.forms-step input + label + div {
   padding: 0;
   /* height: 0; */
   display: flex;
-  gap: 10px;
+  /* gap: 10px; */
   font-weight: bold;
   color: #0b1729;
-  padding: 16px 20px 20px;
+  /* padding: 16px 20px 20px; */
   border-radius: 8px;
   background-color: #dee4f1;
   -webkit-border-radius: 8px;
-  margin: 0 15px 15px;
+  /* margin: 0 15px 15px; */
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;

@@ -1,33 +1,30 @@
 /* ==========================================================================
    Start  CSS 
    ========================================================================== */
-@font-face {
-  font-family: "webflow-icons";
-  src: url("data:application/x-font-ttf;charset=utf-8;base64,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")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
+.popup-body::-webkit-scrollbar,
 aside::-webkit-scrollbar,
 html::-webkit-scrollbar {
   width: 6px;
 }
+.popup-body::-webkit-scrollbar-track,
 aside::-webkit-scrollbar-track,
 html::-webkit-scrollbar-track {
   background: rgb(218, 218, 218);
   border-radius: 10px;
 }
+.popup-body::-webkit-scrollbar-thumb,
 aside::-webkit-scrollbar-thumb,
 html::-webkit-scrollbar-thumb {
   background: rgb(136, 136, 136);
   border-radius: 10px;
 }
+.popup-body::-webkit-scrollbar-thumb:hover,
 aside::-webkit-scrollbar-thumb:hover,
 html::-webkit-scrollbar-thumb:hover {
   background: rgb(100, 100, 100);
   border-radius: 10px;
 }
+.popup-body::-webkit-scrollbar-thumb:active,
 aside::-webkit-scrollbar-thumb:active,
 html::-webkit-scrollbar-thumb:active {
   background: rgb(68, 68, 68);
@@ -48,7 +45,7 @@ h2,
 h3,
 h4 {
   color: #0b1729;
-  font-family: Gilroy, sans-serif;
+  font-family: 'Gilroy', sans-serif;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -162,6 +159,8 @@ main {
 
 /*  forms ----------------------------------------- */
 /*  forms global */
+form {width: 100%;}
+
 input[type="date"],
 input[type="email"],
 input[type="tel"],
@@ -200,20 +199,37 @@ input[type="text"]:focus {
 }
 
 .form-radio {
-  /* margin-bottom: 10px; */
+    display: block;
+    margin: 0 0 10px 0;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px 2px rgb(11 23 41 / 3%);
+    /* flex-direction: column; */
+    width: 100%;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    /* position: absolute; */
 }
 .form-radio input[type="radio"] {
   display: none;
+  /* width: 0px; */
+  /* height: 0px; */
 }
 .form-radio label {
-  /* display: inline-block; */
-  /* cursor: pointer; */
-  /* position: relative; */
-  /* padding-left: 25px; */
-  /* margin-right: 0; */
-  /* line-height: 18px; */
-  /* user-select: none; */
-  /* position: relative; */
+  color: #0b1729;
+  font-weight: 600;
+  /* margin: 0 0 6px; */
+  /* display: block; */
+  display: flex;
+  /* flex-direction: row; */
+  /* width: 100%; */
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 16px 24px 16px 40px;
+  /* margin: 0 0 10px 0; */
+  /* min-height: 35px;*/
 }
 .form-radio label:before {
   content: "";
@@ -249,36 +265,56 @@ input[type="text"]:focus {
 
 /*acordion */
 
-.acordion input + label + div {
+.acordion  input + label + div {
   height: 0;
   padding: 0 30px;
   margin: 0;
   overflow: hidden;
+  background: #fff;
 }
 
 .acordion input:checked + label + div {
   height: auto;
-  padding: 15px;
-  margin: 0 15px 15px;
+  padding: 0 15px 15px;
+  /* margin: 0 15px 15px; */
   overflow: hidden;
+  /* background: #fff; */
 }
 
-.acordion input + label {
+.forms-step .acordion input:checked + label + div {
+    height: auto;
+    padding: 15px;
+    margin: 0 15px 15px;
+    overflow: hidden;
+}
+
+.acordion > input + label {
   background-color: #fff;
   transition: color 0.35s;
   cursor: pointer;
+  /* width: 100%; */
+  display: flex;
+  /* display: block; */
+  color: #0b1729;
+  font-weight: 600;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px 15px 15px 15px;
+  margin: 10px 0 0px 0;
 }
 .acordion input:checked + label {
   cursor: default;
+  /* width: 100%; */
 }
 .acordion > input {
   display: none;
 }
 .acordion > label:after {
-  content: "\276F";
+  content: "\f054";
   /* float: right; */
   transition: transform 0.35s;
   margin-left: auto;
+  font-family: "Font Awesome 5 Pro";
 }
 
 .acordion input:checked + label:after {
