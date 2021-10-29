@@ -159,9 +159,11 @@ img {
 main {
   display: flex;
   flex-direction: row;
-  max-width: 1240px;
+  max-width: 1280px;
   margin: 0 auto;
   align-items: flex-start;
+  padding: 0 40px;
+  /* min-width: 600px; */
 }
 
 .header-page {
@@ -357,7 +359,7 @@ input[type="text"]:focus {
 }
 .acordion > label:after {
   content: "\f054";
-  /* float: right; */
+  float: right;
   transition: transform 0.35s;
   margin-left: auto;
   font-family: "Font Awesome 5 Pro";
@@ -520,3 +522,7 @@ background:#2ebbde;
 .check:checked + label:after {
 left:20px;
 }
+
+
+
+
