@@ -37,7 +37,7 @@ body {
   line-height: 24px;
   font-family: Inter, sans-serif;
   background-color: #f9f9fa;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   margin: 0;
 }
 
@@ -250,7 +250,7 @@ input[type="text"]:focus {
   border-radius: 6px;
   box-shadow: 0 2px 6px 2px rgb(11 23 41 / 3%);
   /* flex-direction: column; */
-  width: 100%;
+  /* width: 100%; */
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;

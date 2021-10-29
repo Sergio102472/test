@@ -1,148 +1,18 @@
-.modalbg {
-  -moz-transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  -webkit-transition-delay: 0.2s;
-  -moz-transition-delay: 0.2s;
-  -o-transition-delay: 0.2s;
-  -transition-delay: 0.2s;
-  display: block;
-  pointer-events: none;
-  position: fixed;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
-  z-index: 10090;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-self: flex-start;
-  -ms-flex-item-align: start;
-  align-self: flex-start;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  cursor: auto;
-  -moz-transition: all 0.5s ease-out;
-  -ms-transition: all 0.5s ease-out;
-}
 
-.modalbg .dialog {
-  /* table-layout: fixed; */
-  display: none;
-  /* position: relative; */
-  margin: 5px auto;
-  -moz-border-radius: 10px;
-  /* overflow: hidden; */
-  width: 570px;
-  /* height: 73%; */
-  /* padding: 0 40px 50px 40px; */
-  /* background-color: #ededed; */
-  background-color: #f9f9fa;
-}
-.modalbg .dialog .ie7 {
-  filter: progid:DXImageTransform.Microsoft.Shadow(color='#000', Direction=135, Strength=3);
-}
-.modalbg:target {
-  display: block;
-  pointer-events: auto;
-  /* background: rgb(77 81 95); */
-  background-color: rgba(11, 23, 41, 0.84);
-  -moz-transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}
-.modalbg:target .dialog {
-  /* table-layout: fixed; */
-  /* display: table; */
-  /* display: table-row-group; */
-  /* vertical-align: middle; */
-  /* display: table-row-group; */
-  display: block;
-  /* display: grid; */
-  /* table-layout: auto; */
-  /* height: 100%; */
-  /* overflow: scroll; */
-  /* width: 570px; */
-  /* height: 100vw; */
-  /* padding: 48px; */
-  /* background-color: #f9f9fa; */
-}
-.popup-close {
-  color: #0b1729;
-  position: absolute;
-  right: 5px;
-  top: 5px;
-}
-.popup-close .ie7 {
-  filter: progid:DXImageTransform.Microsoft.Shadow(color='#000', Direction=135, Strength=3);
-}
-.popup-close:hover {
-  text-decoration: none;
-  transition: transform 0.35s;
-  transform: rotate(90deg);
-}
-
-.popup-head {
-  display: table;
-  /* display: table-row; */
-  position: sticky;
-  /* position: fixed; */
-  position: -webkit-sticky;
-  /* position: sticky; */
-  /* top: 0px; */
-  /* z-index: 50; */
-  background-color: #ededed;
-  /* top: 0; */
-  /* right: 0; */
-  /* left: 0; */
-  width: 100%;
-  margin: 0 0 20px 0;
-}
-
-.popup-body {
-  /* display: block; */
-  height: 90%;
-  /* overflow: scroll; */
-  /* overflow-x:hidden; */
-  /* display:block; */
-  /* width: 100%; */
-  /* margin: auto; */
-  overflow: auto;
-  overflow-x: hidden;
-  display: block;
-  padding: 10px;
-}
 
 /* ================================================ */
 
 
 .modal-choose-phone-number {
-  /* position: fixed; */
-  /* z-index: 20; */
+  position: fixed;
+  opacity: 0;
+  top: 3000px;
+  z-index: 409;
   /* display: none; */
   /* overflow: visible; */
-  /* width: 100%; */
-  /* margin-right: auto; */
-  /* margin-left: auto; */
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .fade {
@@ -176,8 +46,9 @@
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background-color: rgba(11, 23, 41, 0.84);
+  background-color: rgb(11 23 41 / 41%);
   cursor: auto;
+  width: 100%;
 }
 
 
@@ -191,18 +62,18 @@
 }
 
 .modal-search-number {
-  overflow: scroll;
+  overflow: auto;
   width: 57px;
   height: 100vw;
   padding: 48px;
   background-color: #f9f9fa;
 }
 .popup-bg {
-  /* display: block; */
-  width: 480px;
+  display: block;
+  width: 539px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 40px;
+  padding: 0 0;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -226,7 +97,9 @@
   top: 0px;
   z-index: 50;
   background-color: #ffffff;
-  padding: 15px 0 6px 0;
+  padding: 15px 0px 6px 0;
+  /* width: 100%; */
+  /* margin: auto 35px; */
 }
 
 .modal-header {
@@ -341,3 +214,157 @@
   -ms-flex-align: center;
   align-items: center;
 }
+
+
+
+
+
+
+/* ============================= */
+
+
+/* свойства модального окна по умолчанию */
+.modal {
+  position: fixed;
+  /* фиксированное положение */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  /* цвет фона */
+  z-index: 1050;
+  opacity: 0;
+  /* по умолчанию модальное окно прозрачно */
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  /* анимация перехода */
+  pointer-events: none;
+  /* элемент невидим для событий мыши */
+}
+
+/* при отображении модального окно */
+.modal:target {
+  opacity: 1;
+  pointer-events: auto;
+  overflow-y: inherit;
+}
+body.compensate-for-scrollbar {
+  overflow: hidden;
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+  /* position: relative; */
+  width: auto;
+  /* margin: 10px; */
+  /* height: 100vh; */
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    /* max-width: 500px; */
+    /* margin: 30px auto; */
+  }
+}
+
+/* свойства для блока, содержащего контент модального окна */
+.modal-content {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  /* background-color: #fff; */
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* border: 1px solid rgba(0, 0, 0, .2); */
+  /* border-radius: .3rem; */
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .modal-content {
+    /* -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5); */
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, .5); */
+  }
+}
+
+/* свойства для заголовка модального окна */
+.modal-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #eceeef;
+}
+
+.modal-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+/* свойства для кнопки "Закрыть" */
+.close {
+  float: right;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+  text-decoration: none;
+}
+
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.close:focus,
+.close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .75;
+}
+
+/* свойства для блока, содержащего основное содержимое окна */
+.modal-body {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  /* padding: 40px; */
+  overflow: auto;
+  width: 100%;
+}
+
+.modal-content {margin-right: 40px;margin-left: 40px;}
+.fa-times:before {
+  content: "\f00d";
+  color: #000;
+  float: right;
+  margin: -54px -73px 0;
+}
+
+
+
+
+
+
