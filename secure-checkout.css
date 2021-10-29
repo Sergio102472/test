@@ -14,6 +14,7 @@
   /* position: sticky; */
   /* top: 1%; */
   width: 363px;
+  min-width: 256px;
   padding: 23px 32px 32px;
   border-radius: 8px;
   background-color: #fff;
@@ -25,7 +26,7 @@
   /* display: flex; */
   /* flex-wrap: wrap; */
   /* column-gap: 25px; */
-  margin-left: 57px;
+  margin-left: 55px;
   /* max-height: 90vh; */
 }
 .forms-step {
@@ -170,8 +171,8 @@ margin: 0 0 -8px;
 /* step forms ----------------------------------------- */
 
 .forms-step {
-  /* font-size: 15px; */
-  width: 678px;
+  max-width: 678px;
+  min-width: 400px;
 }
 
 .forms-step article p {
@@ -469,6 +470,7 @@ form.account-details label.select-hear-about {
 .credit-card-block .credit-card {
     position: absolute;
     width: 398px;
+    min-width: 300px;
     height: 207px;
     padding: 40px 40px 56px;
     border-radius: 24px;
