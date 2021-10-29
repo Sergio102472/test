@@ -1,0 +1,24 @@
+
+
+
+@media screen and (max-width: 800px) { 
+
+    main {
+        display: block;
+        width: calc(100% - 42px);
+        /* min-width: 300px; */
+        padding: 0 17px;
+    }
+    .forms-step {
+        width: 100%;
+        min-width: 300px;
+    }
+
+    .order-summary {
+        margin-left: 0px;
+        width: auto;
+    }
+
+
+
+ }

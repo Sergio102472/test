@@ -159,7 +159,7 @@ img {
 main {
   display: flex;
   flex-direction: row;
-  max-width: 1280px;
+  max-width: 1160px;
   margin: 0 auto;
   align-items: flex-start;
   padding: 0 40px;
