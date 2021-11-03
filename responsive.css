@@ -1,70 +1,65 @@
+@media screen and (max-width: 800px) {
+  main {
+    display: block;
+    width: calc(100% - 81px);
+    padding: 0 40px;
+  }
+  .forms-step {
+    /* width: 100%; */
+    max-width: 100%;
+    min-width: 300px;
+  }
 
-
-
-@media screen and (max-width: 800px) { 
-
-    main {
-        display: block;
-        width: calc(100% - 81px);
-        padding: 0 40px;
-    }
-    .forms-step {
-        /* width: 100%; */
-        max-width: 100%;
-        min-width: 300px;
-    }
-
-    .order-summary {
-        margin-left: 0px;
-        width: auto;
-    }
-    .forms-step article {
-        margin-bottom: 0px;
-    }
-
- }
-
-
-
- @media screen and (max-width: 500px) { 
-    main {
-        width: calc(100% - 41px);
-        padding: 0 20px;
-    }
-
-    .forms-step .acordion input:checked + label + div {
-        margin: 0 8px 9px;
-        padding: 8px 16px;
-    }
-    .billing-address.acordion input:checked + label + div {
-        padding: 0;
-        margin: 0;
-    }
-    .forms-step {
-        width: 100%;
-        min-width: 300px;
-    }
-    .forms-step .form-radio label {padding: 16px 16px 16px 30px;}
-    .order-summary {
-        margin-left: 0px;
-        width: auto;
-    }
-    .forms-step .form-radio label .many-save {
-  
-position: absolute;
-top: -8px;
-right: 6px;
-font-size: 14px;
-line-height: 20px;
+  .order-summary {
+    margin-left: 0px;
+    width: auto;
+  }
+  .forms-step article {
+    margin-bottom: 0px;
+  }
 }
-.plan-include {
+
+@media screen and (max-width: 500px) {
+  main {
+    width: calc(100% - 41px);
+    padding: 0 20px;
+  }
+
+  .forms-step .acordion input:checked + label + div {
+    margin: 0 8px 9px;
+    padding: 8px 16px;
+  }
+  .billing-address.acordion input:checked + label + div {
+    padding: 0;
+    margin: 0;
+  }
+  .forms-step {
+    width: 100%;
+    min-width: 300px;
+  }
+  .forms-step .form-radio label {
+    padding: 16px 16px 16px 30px;
+  }
+  .order-summary {
+    margin-left: 0px;
+    width: auto;
+  }
+  .forms-step .form-radio label .many-save {
+    position: absolute;
+    top: -8px;
+    right: 6px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .plan-include {
     columns: 1;
-}
+  }
 
-form.payment, form.billing-address, form.shipping-info, form.account-details {
+  form.payment,
+  form.billing-address,
+  form.shipping-info,
+  form.account-details {
     width: auto;
     margin-right: -8px;
+  }
 }
-
-
- }

@@ -2,17 +2,32 @@
    Start  CSS 
    ========================================================================== */
 
-   .hrt-8px {height: 8px;}
-   .hrb-8px {height: 8px;}
-   .hrt-10px {height: 10px;}
-   .hrb-10px {height: 10px;}
-   .hrt-16px {height: 16px;}
-   .hrb-16px {height: 16px;}
-   .hrt-40px {height: 40px;}
-   .hrb-40px {height: 40px;}
-   
- 
-   .popup-body::-webkit-scrollbar,
+.hrt-8px {
+  height: 8px;
+}
+.hrb-8px {
+  height: 8px;
+}
+.hrt-10px {
+  height: 10px;
+}
+.hrb-10px {
+  height: 10px;
+}
+.hrt-16px {
+  height: 16px;
+}
+.hrb-16px {
+  height: 16px;
+}
+.hrt-40px {
+  height: 40px;
+}
+.hrb-40px {
+  height: 40px;
+}
+
+.popup-body::-webkit-scrollbar,
 aside::-webkit-scrollbar,
 html::-webkit-scrollbar {
   width: 6px;
@@ -188,23 +203,26 @@ main {
 
 /*  forms ----------------------------------------- */
 /*  forms global */
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
   font-size: 14px;
 }
-::-moz-placeholder { /* Firefox 19+ */
+::-moz-placeholder {
+  /* Firefox 19+ */
   font-size: 14px;
 }
-:-ms-input-placeholder { /* IE 10+ */
+:-ms-input-placeholder {
+  /* IE 10+ */
   font-size: 14px;
 }
-:-moz-placeholder { /* Firefox 18- */
+:-moz-placeholder {
+  /* Firefox 18- */
   font-size: 14px;
 }
 .required-element {
-    padding: 8px 16px;
-    border-radius: 4px;
-    background-color: #e8e7ec;
-   
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #e8e7ec;
 }
 /* .required-element:before {
   content: "\f071";
@@ -316,7 +334,6 @@ input[type="text"]:focus {
   height: 14px;
 }
 
-
 /* Checked */
 .form-radio input[type="radio"]:checked + label:before {
   border: 7px solid #0019f9;
@@ -369,7 +386,7 @@ input[type="text"]:focus {
   display: flex;
   color: #0b1729;
   font-weight: 600;
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
   align-items: center;
   padding: 15px 15px 15px 15px;
   margin: 10px 0 0px 0;
@@ -511,38 +528,55 @@ label {
 
 /* --------------------*/
 
-.check{
-vertical-align:top;
-margin:0 3px 0 0;
-width:10px;
-height:10px;
+.check {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 10px;
+  height: 10px;
 }
-.check + label{
-cursor:pointer;
+.check + label {
+  cursor: pointer;
 }
-.check:not(checked){
-position:absolute;
-opacity:0;
+.check:not(checked) {
+  position: absolute;
+  opacity: 0;
 }
-.check:not(checked) + label{position:relative;padding: 0 0 0 60px;background-color: transparent;}
-.check:not(checked) + label:before{
-content: '';position:
-absolute;
-top:0;
-left:0;
-width:40px;
-height:20px;
-border-radius:10px;
-background: #CDD1DA;
-box-shadow:inset 0 2px 3px rgba(0,0,0,.2);
--webkit-box-shadow:inset 0 2px 3px rgba(0,0,0,.2);
--moz-box-shadow:inset 0 2px 3px rgba(0,0,0,.2);
+.check:not(checked) + label {
+  position: relative;
+  padding: 0 0 0 60px;
+  background-color: transparent;
 }
-.check:not(checked) + label:after{content:'';position:absolute;top:0;left: -10px;width:20px;height:20px;border-radius:10px;border: 1px #0019f9 solid;background: #fff;box-shadow:0 2px 5px rgba(0,0,0,.3);-webkit-box-shadow:0 2px 5px rgba(0,0,0,.3);-moz-box-shadow:0 2px 5px rgba(0,0,0,.3);transition: all .2s;}
-.check:checked + label:before{background: #e0e3fa;}
+.check:not(checked) + label:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 20px;
+  border-radius: 10px;
+  background: #cdd1da;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.check:not(checked) + label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px #0019f9 solid;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s;
+}
+.check:checked + label:before {
+  background: #e0e3fa;
+}
 .check:checked + label:after {
-left:20px;
+  left: 20px;
 }
-
-
-
