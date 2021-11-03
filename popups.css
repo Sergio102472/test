@@ -482,6 +482,26 @@ body.compensate-for-scrollbar {
   background-color: #d8dae1;
 }
 
+
+
+
+.number-modal h2.available-numbers {
+    font-weight: 700;
+    margin-bottom: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.number-modal .suggested-phone {
+    margin: 16px 0 16px;
+    padding: 0 0 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.number-modal .suggested-phone h4 {}
+
+
+
+
+
 @media screen and (max-width: 767px) {
   .modal-nav {
     position: relative;
