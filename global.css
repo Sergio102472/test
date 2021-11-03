@@ -1,7 +1,18 @@
 /* ==========================================================================
    Start  CSS 
    ========================================================================== */
-.popup-body::-webkit-scrollbar,
+
+   .hrt-8px {height: 8px;}
+   .hrb-8px {height: 8px;}
+   .hrt-10px {height: 10px;}
+   .hrb-10px {height: 10px;}
+   .hrt-16px {height: 16px;}
+   .hrb-16px {height: 16px;}
+   .hrt-40px {height: 40px;}
+   .hrb-40px {height: 40px;}
+   
+ 
+   .popup-body::-webkit-scrollbar,
 aside::-webkit-scrollbar,
 html::-webkit-scrollbar {
   width: 6px;
@@ -57,7 +68,7 @@ h1 {
 }
 h2 {
   font-size: 28px;
-  line-height: 32px;
+  line-height: 30px;
   font-weight: 600;
   padding: 0 0 15px;
 }
@@ -152,7 +163,7 @@ img {
   padding: 0px 6px;
   border-radius: 4px;
   background-color: #02ca66;
-  margin: 0 15px;
+  /* margin: 0 15px; */
   margin-left: auto;
 }
 
@@ -177,7 +188,18 @@ main {
 
 /*  forms ----------------------------------------- */
 /*  forms global */
-
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 14px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-size: 14px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-size: 14px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 14px;
+}
 .required-element {
     padding: 8px 16px;
     border-radius: 4px;
@@ -196,6 +218,9 @@ main {
 }
 
 form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -220,7 +245,7 @@ input[type="text"] {
   border: 1px solid #e8e7ec;
   border-radius: 6px;
   background-color: #fff;
-  font-weight: 600;
+  /* font-weight: 600; */
   padding: 8px 12px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -247,10 +272,10 @@ input[type="text"]:focus {
 
 .form-radio {
   display: block;
-  margin: 0 0 10px 0;
+  margin: 0 0 12px 0;
   background-color: #fff;
   border-radius: 6px;
-  box-shadow: 0 2px 6px 2px rgb(11 23 41 / 3%);
+  box-shadow: 0 2px 6px 2px rgb(11 23 41 / 10%);
   /* flex-direction: column; */
   /* width: 100%; */
   -webkit-border-radius: 6px;
@@ -277,6 +302,7 @@ input[type="text"]:focus {
   padding: 16px 24px 16px 44px;
   /* margin: 0 0 10px 0; */
   /* min-height: 35px;*/
+  position: relative;
 }
 .form-radio label:before {
   content: "";
@@ -340,19 +366,19 @@ input[type="text"]:focus {
   background-color: #fff;
   transition: color 0.35s;
   cursor: pointer;
-  /* width: 100%; */
   display: flex;
-  /* display: block; */
   color: #0b1729;
   font-weight: 600;
-  flex-wrap: wrap;
+  font-family: 'Gilroy', sans-serif;
   align-items: center;
   padding: 15px 15px 15px 15px;
   margin: 10px 0 0px 0;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 17px;
 }
 .acordion input:checked + label {
   cursor: default;
-  /* width: 100%; */
 }
 .acordion > input {
   display: none;
@@ -363,11 +389,15 @@ input[type="text"]:focus {
   transition: transform 0.35s;
   margin-left: auto;
   font-family: "Font Awesome 5 Pro";
+  margin: 0 10px;
+  font-weight: 400;
 }
 
 .acordion input:checked + label:after {
   transition: transform 0.35s;
   transform: rotate(90deg);
+  margin-left: auto;
+  float: right;
 }
 
 /* end acordion */
@@ -467,6 +497,12 @@ select[multiple] option {
 label {
   font-size: 15px;
   font-weight: 500;
+  /* display: block; */
+  /* margin-bottom: 4px; */
+  color: #0b1729;
+  /* font-size: 16px; */
+  /* line-height: 20px; */
+  font-weight: 600;
 }
 
 .select + label {
@@ -502,27 +538,11 @@ box-shadow:inset 0 2px 3px rgba(0,0,0,.2);
 -webkit-box-shadow:inset 0 2px 3px rgba(0,0,0,.2);
 -moz-box-shadow:inset 0 2px 3px rgba(0,0,0,.2);
 }
-.check:not(checked) + label:after{
-content:'';
-position:absolute;
-top:0;
-left:2px;
-width:20px;
-height:20px;
-border-radius:10px;
-background:#fff;
-box-shadow:0 2px 5px rgba(0,0,0,.3);
--webkit-box-shadow:0 2px 5px rgba(0,0,0,.3);
--moz-box-shadow:0 2px 5px rgba(0,0,0,.3);
-transition: all .2s;
-}
-.check:checked + label:before{
-background:#2ebbde;
-}
+.check:not(checked) + label:after{content:'';position:absolute;top:0;left: -10px;width:20px;height:20px;border-radius:10px;border: 1px #0019f9 solid;background: #fff;box-shadow:0 2px 5px rgba(0,0,0,.3);-webkit-box-shadow:0 2px 5px rgba(0,0,0,.3);-moz-box-shadow:0 2px 5px rgba(0,0,0,.3);transition: all .2s;}
+.check:checked + label:before{background: #e0e3fa;}
 .check:checked + label:after {
 left:20px;
 }
-
 
 
 

@@ -38,12 +38,8 @@
 
 .forms-step > article > .section-title::before {
   content: counter(my-awesome-counter);
-  /* background: #662974; */
-  /* width: 2rem; */
-  /* height: 2rem; */
   border-radius: 50%;
   display: inline-block;
-  /* line-height: 2rem; */
   color: #0b1729;
   text-align: center;
   margin-right: 17px;
@@ -51,6 +47,7 @@
   height: 32px;
   background-color: #e8e7ec;
   font-size: 20px;
+  font-weight: 800;
 }
 
 
@@ -67,8 +64,8 @@
 ul.product-list li {
   display: flex;
   border-bottom: solid 1px #cbcbcb;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   align-items: flex-start;
   gap: 0px;
 }
@@ -84,8 +81,7 @@ ul.product-list li {
 }
 .product-item .product-info .product-tooltip {
 }
-.product-item .product-info .product-description {
-}
+.product-item .product-info .product-description {margin-bottom: 0px;}
 .product-item .product-price {
   font-weight: 600;
   margin-left: auto;
@@ -102,6 +98,30 @@ margin: 0 0 -8px;
     display: block;
     font-size: 16px;
 }
+.tax-service.acordion > input + label {
+  padding: 2px 0px 3px;
+  display: block;
+  font-size: 16px;
+}
+/* .tax-service.acordion > label:after {
+  content: "\f053";
+  float: none;
+  transition: transform 0.35s;
+  margin-left: auto;
+  font-family: "Font Awesome 5 Pro";
+  margin: 0 10px;
+  font-weight: 400;
+} */
+/* .tax-service.acordion > input:checked  {
+  content: "\f053";
+  float: none;
+  transition: transform 0.35s;
+  margin-left: auto;
+  font-family: "Font Awesome 5 Pro";
+  margin: 0 10px;
+  font-weight: 400;
+} */
+
 .tax-service.acordion > input + label .tax-price {
     float: right;
     color: #686d79;
@@ -179,7 +199,7 @@ margin: 0 0 -8px;
   
 font-size: 15px;
   
-margin-bottom: 28px;
+margin-bottom: 8px;
 }
 .forms-step article {
 
@@ -203,30 +223,24 @@ margin: 8px 0 8px 0px;
   margin: 0px 0 28px 0;
   font-size: 28px;
   line-height: 32px;
-  font-weight: 600;
-  color: #0b1729;
-  display: flex;
-  background: transparent;
-  font-family: 'Gilroy', sans-serif;
-  align-items: center;
+  background-color: transparent;
 }
 .forms-step .acordion input:checked + .section-title + div {
   background-color: transparent;
   padding: 2px;
   margin: 0 0px 0px;
 }
-.forms-step .section-title::after {
-}
+.forms-step .section-title::after {margin-left: auto;float: right;}
 
 .forms-step .form-radio {
   /* display: flex; */
   /* min-height: 35px; */
   /* margin: 6px 0px; */
-   border: 1px; 
+  border: 1px;
   /* padding: 16px 20px; */
   background-color: #fff;
   border-radius: 6px;
-  box-shadow: 0 2px 6px 2px rgba(11, 23, 41, 0.03);
+  /* box-shadow: 0 2px 6px 2px rgb(11 23 41 / 12%); */
   /* flex-direction: column; */
   width: 100%;
 }
@@ -234,7 +248,7 @@ margin: 8px 0 8px 0px;
 
 background-color: #fff;
 
-box-shadow: 0 2px 7px 0 rgb(0 25 249 / 16%), 0 0 0 2px #0019f9;
+box-shadow: 0 2px 7px 0 rgb(0 25 249 / 16%), 0 0 0 1px #0019f9;
 }
 
 
@@ -300,13 +314,16 @@ h4.your-plan-include {
   padding: 20px 0 0;
 }
 .plan-include {
+  /* display: flex; */
   -webkit-columns: 2;
   -moz-columns: 2;
   columns: 2;
   padding-left: 0;
   margin: 14px 0;
+  flex-wrap: wrap;
 }
 .forms-step .plan-include li {
+  display: flex;
   list-style-position: inside;
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
@@ -416,9 +433,12 @@ form.account-details {
 
 
 
+.acordion > input + .title {
 
 
+}
 
+.title {}
 
 
 
