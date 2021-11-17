@@ -1,0 +1,13 @@
+ids,labels,parents
+Citrus-Lemon,Lemon,Fruity-Citrus
+Citrus-Apple,Apple,Fruity-Citrus
+Berry-like-Apricot,Apricot,Fruity-Berry-like
+Berry-like-Blackberry,Blackberry,Fruity-Berry-like
+Alliaceous-Onion,Onion,Herby-Alliaceous
+Alliaceous-Garlic,Garlic,Herby-Alliaceous
+Leguminous-Cucumber,Cucumber,Herby-Leguminous
+Leguminous-Garden Peas,Garden Peas,Herby-Leguminous
+Nut-like-Roasted Peanuts,Roasted Peanuts,Nutty-Nut-like
+Nut-like-Walnuts,Walnuts,Nutty-Nut-like
+Malt-like-Balsamic Rice,Balsamic Rice,Nutty-Malt-like
+Malt-like-Toast,Toast,Nutty-Malt-like
