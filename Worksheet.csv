@@ -1,30 +1,8 @@
 ids,labels,parents
-Enzymatic-Flowery,Flowery,
-Enzymatic-Fruity,Fruity,
-Enzymatic-Herby,Herby,
-Sugar Browning-Nutty,Nutty,
-Sugar Browning-Carmelly,Carmelly,
-Sugar Browning-Chocolatey,Chocolatey,
-Dry Distillation-Resinous,Resinous,
-Dry Distillation-Spicy,Spicy,
-Dry Distillation-Carbony,Carbony,
-Bitter-Pungent,Pungent,
-Bitter-Harsh,Harsh,
-Salt-Sharp,Sharp,
-Salt-Bland,Bland,
-Sweet-Mellow,Mellow,
-Sweet-Acidy,Acidy,
-Sour-Winey,Winey,
-Sour-Soury,Soury,
 Flowery-Floral,Floral,Enzymatic-Flowery
 Flowery-Fragrant,Fragrant,Enzymatic-Flowery
 Fruity-Citrus,Citrus,Enzymatic-Fruity
 Fruity-Berry-like,Berry-like,Enzymatic-Fruity
 Herby-Alliaceous,Alliaceous,Enzymatic-Herby
 Herby-Leguminous,Leguminous,Enzymatic-Herby
-Nutty-Nut-like,Nut-like,Sugar Browning-Nutty
-Nutty-Malt-like,Malt-like,Sugar Browning-Nutty
-Carmelly-Candy-like,Candy-like,Sugar Browning-Carmelly
-Carmelly-Syrup-like,Syrup-like,Sugar Browning-Carmelly
-Chocolatey-Chocolate-like,Chocolate-like,Sugar Browning-Chocolatey
 
