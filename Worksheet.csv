@@ -1,13 +1,13 @@
 ids,labels,parents
-Enzymatic-Flowery,Earlier Phases,
-Enzymatic-Fruity,Late Phases,
-Enzymatic-Herby,Mid Phases,
-Flowery-Floral,Needs,Earlier Phases
-Flowery-Fragrant,Ideas,Earlier Phases
-Fruity-Citrus,Price,Late Phases
-Fruity-Berry-like,Shelf,Late Phases
-Herby-Alliaceous,eCommerce,Late Phases
-Herby-Leguminous,Choice,Mid Phases
-Nutty-Nut-like,Pack,Mid Phases
-Nutty-Malt-like,Concept,Mid Phases
-Carmelly-Candy-like,Claims
+Phases-Earlier Phases,Earlier Phases,
+Phases-Late Phases,Late Phases,
+Phases-Mid Phases,Mid Phases,
+Earlier Phases-Needs,Needs,Phases-Earlier Phases
+Earlier Phases-Ideas,Ideas,Phases-Earlier Phases
+Late Phases-Price,Price,Phases-Late Phases
+Late Phases-Shelf,Shelf,Phases-Late Phases
+Late Phases-eCommerce,eCommerce,Phases-Late Phases
+Mid Phases-Choice,Choice,Phases-Mid Phases
+Mid Phases-Pack,Pack,Phases-Mid Phases
+Mid Phases-Concept,Concept,Phases-Mid Phases
+Mid Phases-Claims,Claims,Phases-Mid Phases
