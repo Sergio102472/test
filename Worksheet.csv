@@ -1,13 +1,13 @@
 ids,labels,parents
-WP,Earlier Phases,
-WP,Late Phases,
-WP,Mid Phases,
-WP,Needs,Earlier Phases
-WP,Ideas,Earlier Phases
-WP,Price,Late Phases
-WP,Shelf,Late Phases
-WP,eCommerce,Late Phases
-WP,Choice,Mid Phases
-WP,Pack,Mid Phases
-WP,Concept,Mid Phases
-WP,Claims,Mid Phases
+Enzymatic-Flowery,Earlier Phases,
+Enzymatic-Fruity,Late Phases,
+Enzymatic-Herby,Mid Phases,
+Flowery-Floral,Needs,Earlier Phases
+Flowery-Fragrant,Ideas,Earlier Phases
+Fruity-Citrus,Price,Late Phases
+Fruity-Berry-like,Shelf,Late Phases
+Herby-Alliaceous,eCommerce,Late Phases
+Herby-Leguminous,Choice,Mid Phases
+Nutty-Nut-like,Pack,Mid Phases
+Nutty-Malt-like,Concept,Mid Phases
+Carmelly-Candy-like,Claims
