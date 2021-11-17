@@ -1,13 +1,13 @@
-ids,labels,parents
-Phases-Earlier Phases,Earlier Phases,
-Phases-Late Phases,Late Phases,
-Phases-Mid Phases,Mid Phases,
-Earlier Phases-Needs,Needs,Phases-Earlier Phases
-Earlier Phases-Ideas,Ideas,Phases-Earlier Phases
-Late Phases-Price,Price,Phases-Late Phases
-Late Phases-Shelf,Shelf,Phases-Late Phases
-Late Phases-eCommerce,eCommerce,Phases-Late Phases
-Mid Phases-Choice,Choice,Phases-Mid Phases
-Mid Phases-Pack,Pack,Phases-Mid Phases
-Mid Phases-Concept,Concept,Phases-Mid Phases
-Mid Phases-Claims,Claims,Phases-Mid Phases
+ids,labels,parents,title,text
+Phases-Earlier Phases,Earlier Phases,,,
+Phases-Late Phases,Late Phases,,,
+Phases-Mid Phases,Mid Phases,,,
+Earlier Phases-Needs,Needs,Phases-Earlier Phases,Needs Identification,What are the unmet needs in the category?
+Earlier Phases-Ideas,Ideas,Phases-Earlier Phases,Idea Screening,Which ideas to prioritize for further development
+Late Phases-Price,Price,Phases-Late Phases,,
+Late Phases-Shelf,Shelf,Phases-Late Phases,,
+Late Phases-eCommerce,eCommerce,Phases-Late Phases,,
+Mid Phases-Choice,Choice,Phases-Mid Phases,,
+Mid Phases-Pack,Pack,Phases-Mid Phases,,
+Mid Phases-Concept,Concept,Phases-Mid Phases,,
+Mid Phases-Claims,Claims,Phases-Mid Phases,,
