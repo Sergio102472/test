@@ -2,7 +2,7 @@ ids,labels,parents,text1,text2
 Phases-Earlier Phases,Earlier Phases,,,
 Phases-Late Phases,Late Phases,,,
 Phases-Mid Phases,Mid Phases,,,
-Earlier Phases-Needs,Needs,Phases-Earlier Phases,Needs Identification,What are the unmet needs in the category?
+Earlier Phases-Needs,Needs,Phases-Earlier Phases,<b>Needs Identification</b>,What are the unmet needs in the category?
 Earlier Phases-Ideas,Ideas,Phases-Earlier Phases,Idea Screening,Which ideas to prioritize for further development
 Late Phases-Price,Price,Phases-Late Phases,,
 Late Phases-Shelf,Shelf,Phases-Late Phases,,
