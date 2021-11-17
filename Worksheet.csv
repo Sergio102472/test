@@ -1,16 +1,13 @@
 ids,labels,parents
-Enzymatic-Flowery,Flowery,
-Enzymatic-Fruity,Fruity,
-Enzymatic-Herby,Herby,
-Sugar Browning-Nutty,Nutty,
-Sugar Browning-Carmelly,Carmelly,
-Flowery-Floral,Floral,Enzymatic-Flowery
-Flowery-Fragrant,Fragrant,Enzymatic-Flowery
-Fruity-Citrus,Citrus,Enzymatic-Fruity
-Fruity-Berry-like,Berry-like,Enzymatic-Fruity
-Herby-Alliaceous,Alliaceous,Enzymatic-Herby
-Herby-Leguminous,Leguminous,Enzymatic-Herby
-Nutty-Nut-like,Nut-like,Sugar Browning-Nutty
-Nutty-Malt-like,Malt-like,Sugar Browning-Nutty
-Carmelly-Candy-like,Candy-like,Sugar Browning-Carmelly
-Carmelly-Syrup-like,Syrup-like,Sugar Browning-Carmelly
+WP,Earlier Phases,
+WP,Late Phases,
+WP,Mid Phases,
+WP,Needs,Earlier Phases
+WP,Ideas,Earlier Phases
+WP,Price,Late Phases
+WP,Shelf,Late Phases
+WP,eCommerce,Late Phases
+WP,Choice,Mid Phases
+WP,Pack,Mid Phases
+WP,Concept,Mid Phases
+WP,Claims,Mid Phases
